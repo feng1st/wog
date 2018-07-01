@@ -1,0 +1,1 @@
+New battlefield background images (for script68.erm) go in this folder.

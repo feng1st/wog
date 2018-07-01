@@ -1,0 +1,79 @@
+ZVSE
+ERMS_ScriptName=New Battlefields
+ERMS_ScriptAuthor=Jonas_Gustafsson_and_SergRoj
+ERMS_ScriptVersion=1.1.0
+ERMS_ScriptDate=12.8(August).2005
+ERMS_ScriptERMVersion=2.80
+ERMS_ScriptLanguage=English
+ERMS_ScriptUsedVariables=v1-v3;z1
+ERMS_ScriptUsedFlags=1
+ERMS_ScriptUsedFunctions=FU62;FU63
+_WARNING_#1=IMPORTANT! This file is not in a plain text format. NEVER use any editor except ERM_S for making any kind of changes!
+ERMS_PoweredBy=ERM Scripter v. 2004.10.5.945
+*Made by Jonas Gustafsson. Email me at jonas@byteware.de
+*Modified by SergRoj(sergroj@hotbox.ru).
+*This is a script to change the orginal Battlefields in the game
+*Put all ***.pcx files in DATA\p\backgrnd folder
+*The script is made by Donald X, Robert Bergerfjäll and Timothy Pulver
+*The file hosting by Dieter Averbeck
+*Many thanks to you guys!
+*Battlefield pictures are made by Dutch, Robert Bergerfjäll, Jonas Gustafsson
+* and SergRoj.
+
+** Last Update: Aug 12, 2005 - to fix the fix with the new graphics location
+** prev update: August 8, 2005 - to fix a bug with the new graphics locations
+** Previous update: 3rd of June 2005 Thomas Franz - moving graphic files
+
+!?BA0&1000; [do this code when a battle starts but not for AI-only battles]
+!!FU62:P;
+
+!?BA50&1000; [for defender in MP battle]
+!!FU62:P;
+
+!?FU62;
+!!UN:P68/?y-1; [check if script is enabled]
+!!BA:Q?y-2; [state of Quick Combat: y-2=1 if it's a Quick Combat battle]
+!!FU|y-1<>1/y-2=1:E; [exit if script isn't enabled or if battle is a Quick Combat]
+!!BA:B-1; [enable default battlefield if battle isn't a Quick Combat]
+!!BA:P?v1/?v2/?v3; [get x/y/level of battle in v1-v3. It's for 2 lines below]
+!!TR1:T?y-2/d/d/d/d/d/d/d;  [get terrain, rivers, roads]
+!!TR1:G?y-3; [check for special terrain: y-3]
+
+!!VRz1&y-2=0:S^dirt^; [Standard fields]
+!!VRz1&y-2=1:S^sand^;
+!!VRz1&y-2=2:S^grass^;
+!!VRz1&y-2=3:S^snow^;
+!!VRz1&y-2=4:S^swamp^;
+!!VRz1&y-2=5:S^rough^;
+!!VRz1&y-2=6:S^subt^;
+!!VRz1&y-2=7:S^lava^;
+
+!!VRz1&y-3=046:S^magic^; [Special Fields]
+!!VRz1&y-3=226:S^fiery^;
+!!VRz1&y-3=231:S^rockl^;
+!!VRz1&y-3=229:S^air^;
+!!VRz1&y-3=228:S^lucid^;
+!!VRz1&y-3=227:S^holy^;
+!!VRz1&y-3=222:S^clover^;
+!!VRz1&y-3=224:S^evil^;
+!!VRz1&y-3=021:S^cursed^; [Now we have the name in z1]
+
+!!IF:V1/1;
+!!DO63/1/99999/1:P?y-1; [Count number of pictures in y-1]
+!!UN:J8/1/^p\backgrnd\%Z1.pcx^; [Flag1 = 1 if there is a picture without a number]
+!!VRy-1&1:+1;
+!!FU&y-1=0:E; [If no pics]
+* y-1 doesn't change: +1 value for standard picture, but -1 for WOG random
+!!VRy-2:S0 Ry-1;
+* We could exit here if y-1= -1 or 0. But we'll exit later.
+!!VRy-2&1:-1;
+!!BA&1/y-2=0:B^p\backgrnd\%Z1.pcx^;
+!!FU&y-2<=0:E; [Exit if standard or already changed]
+!!BA:B^p\backgrnd\%Z1%Y-2.pcx^;
+
+
+!?FU63; [In: z1,x16, Flag1=1    Out: Count number of pictures to x1]
+!!UN:J8/1/^p\backgrnd\%Z1%X16.pcx^; [Check if picture number x16 is present]
+!!VRx1&-1:Sx16 -1;
+!!VRx16&-1:S100000; [Exit DO]
+

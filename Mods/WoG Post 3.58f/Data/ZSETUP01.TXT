@@ -1,0 +1,2256 @@
+WoG Setup Dialog Information and Hint Text											
+Comment	Script	Page	Group	Item	State	MP	ERM	Text                             	Hint                             	PopUp	
+Apply WoGification to random WoG maps	0	0	0	0	0	0	5	WoGify random WoG maps	Only random map and maps with a file name beginning "wogify_" will be WoGified.	WoGIFY RANDOM WoG MAPS
+
+Option 005-0 by Slava (hard coded)
+
+Only random map and maps with a file name beginning "wogify_" will be WoGified.	
+Apply WoGification to all WoG maps	0	0	0	1	0	0	5	WoGify ALL WoG maps	All maps saved in WoG map format will be WoGified, regardless of their filename.	WoGIFY ALL WoG MAPS
+
+Option 005-1 by Slava (hard coded)
+
+All maps saved in WoG map format will be WoGified, regardless of their filename.	
+Apply WoGification to ALL maps   	0	0	0	2	0	0	5	WoGify ALL RoE, AB, SoD and WoG maps	All Heroes III maps will be WoGified, regardless of their map format or file name.	WoGIFY ALL MAPS
+
+Option 005-2 by Slava (hard coded)
+
+All Heroes III maps will be WoGified, regardless of their map format or file name.	
+Apply WoGification to ALL maps but always ask	0	0	0	3	1	1	5	WoGify ALL maps but ASK before WoGifying	All Heroes III maps will be WoGified, if desired, regardless of their map format or file name.	WoGIFY ALL MAPS BUT ASK FIRST
+
+Option 005-3 by Slava (hard coded)
+
+All Heroes III maps will be WoGified, if desired, regardless of their map format or file name.
+
+The choice to WoGify or not is given whenever you start a map.
+
+PLEASE NOTE:
+With this WoGify Option setting, RoE, AB and SoD maps will be converted to WoG format even if you choose NOT to WoGify them, and all hard-coded WoG options will be taken from the WoG Option screen settings.	
+*Display WoGification Messages*	0	0	1	-1	1	1	248	*Display WoGification Messages*	A message dialogue will be displayed before WoGification begins and another will be shown when it has finished.	DISPLAY WOGIFICATION MESSAGES
+
+Option 248 by Timothy Pulver (script00)
+
+A message dialogue will be displayed before WoGification begins and another will be shown when it has finished. The first message box also provides a chance to abort WoGification.	
+Enhanced dwelling hint text       	24	0	1	-1	1	1	24	Enhanced dwelling hint text	The right-click information for dwellings you own shows the current number of creatures that may be recruited there.	ENHANCED DWELLING HINT TEXT
+
+Option 024 by Timothy Pulver (script24)
+
+The right-click information for dwellings you or an ally own is enhanced to show the current number of creatures that may be recruited there.	
+Towns may be renamed            	25	0	1	-1	1	1	169	Towns may be renamed	You may rename any town you own by clicking on the town's name in the town screen.	TOWNS MAY BE RENAMED
+
+Option 169 by Timothy Pulver (script25)
+
+You may rename any town you own by left-clicking on the town's name in the town screen but you cannot name a town the same as another town in the game.	
+Heroes may be renamed     	25	0	1	-1	1	1	187	Heroes may be renamed     	You may rename any hero you own by clicking on the hero's name in the hero screen.	HEROES MAY BE RENAMED
+
+Option 187 by Timothy Pulver (script25)
+
+You may rename any hero you own by left-clicking on the hero's name in the hero screen but you cannot name a hero the same as another hero in the game.	
+Buy All Creatures button       	25	0	1	-1	1	1	180	Buy All Creatures button       	You may buy all available creatures that you can afford by clicking on the Fort Icon (just below the town name) in the town screen.	BUY ALL CREATURES BUTTON
+
+Option 180 by Timothy Pulver (script25)
+
+You may buy all available creatures that you can afford by clicking on the Fort Icon (just below the town name) in the town screen. You may also buy them from the main adventure screen by holding the Ctrl key and left-clicking on a town in the town list.
+
+You must have room in the garrison for creatures bought or some creatures may be skipped. If gold or space is limited, creatures are bought starting with level 7 and working down to level 1. If you have upgraded a dwelling, only upgraded creatures of that level will be purchased for you.	
+Transfer All Resources button      	5	0	1	-1	1	1	181	Transfer All Resources Option  	You may transfer all your resources, including gold and Mithril, to any player by clicking the Gold Icon (below the town name) in the town screen.	TRANSFER ALL RESOURCES OPTION
+
+Option 181 by Timothy Pulver (script05)
+
+You may transfer all your resources, including gold and Mithril, to any player by clicking the Gold Icon (below the town name) in the town screen and visiting the Bank. You will be given a choice of which player to transfer the resources to. All transactions are immediate and final. The recipient will NOT receive a message about the transfer on his or her turn.
+
+Note: You must have a marketplace built in the town before you can use the Transfer All Resources option.	
+Resource Trading Post	5	0	1	-1	1	1	225	Resource Trading Post	You may transfer any or all of your Resources to another player by clicking the Gold Icon (below the town name) in the town screen.	RESOURCE TRADING POST
+
+Option 225 by Hermann the Weird (script05)
+
+You may transfer any or all of your resources to another player by clicking the Gold Icon (below the town name) in the town screen and visiting the Bank. You will be given a choice of the type and amount of resource to transfer. All transactions are immediate and final. The recipient will NOT receive a message about the transfer on his or her turn.
+
+Note: You must have a marketplace built in the town before you can use the Resource Trading Post option.	
+Display Hidden Skills   	25	0	1	-1	1	1	182	Display Hidden Skills   	If your hero has learned skills beyond the 8 skills normally shown, you may display these "hidden" skills by left-clicking the Experience icon in the hero screen.	DISPLAY HIDDEN SKILLS
+
+Option 182 by Timothy Pulver (script25)
+
+If your hero has learned skills beyond the 8 skills normally shown, you may display these "hidden" skills by left-clicking the Experience icon in the hero screen.
+
+You may also *swap* a hidden skill with a regular non-hidden skill by ctrl-clicking the Experience icon.
+
+And finally, you can *shift* the position of all displayed skills over one, by shift-clicking the Experience icon.
+
+Hidden skills may be gained by selecting the "Heroes get 9th-10th skill" Map Rule, by visiting a Magic Mushroom (if the hero already has 8 skills) and possibly by other means too.	
+Script Message disabling       	25	0	1	-1	1	1	185	Script Message disabling       	To disable messages displayed by certain scripts, right-click the System Options button and select the message to disable.	SCRIPT MESSAGE DISABLING
+
+Option 185 by Timothy Pulver (script25)
+
+To disable messages displayed by certain scripts, right-click the System Options button and select the message to disable. If the applicable script isn't enabled, the disabling option for it won't be shown. Message disabling only applies to the current player.
+
+The following messages can be disabled:
+1. Enhanced Sorcery bonus resource messages
+2. Living Scrolls start of battle messages
+3. Monster Mutterings messages
+4. Cards of Prophecy start of battle messages
+5. Quick Combat Battle Option menu
+6. Bank Loan Repayment messages
+7. Enhanced Artillery start of battle messages	
+Display hero Movement Points remaining   	25	0	1	-1	1	1	25	Display hero Movement Points remaining   	To display a hero's remaining movement points, select a hero and right-click on the Movement button *or* right-click on the movement bar next to the hero in the list.	DISPLAY HERO MOVEMENT POINTS
+
+Option 025 by Timothy Pulver (script25)
+
+To display a hero's remaining movement points, select a hero and right-click on the Movement button *or* right-click on the movement bar next to the hero in the hero list.	
+Display hero Spell Points remaining	25	0	1	-1	1	1	179	Display hero Spell Points remaining	To display a hero's remaining spell points, right-click on the Spell Point bar next to the hero in the hero list.	DISPLAY HERO SPELL POINTS
+
+Option 179 by Timothy Pulver (script25)
+
+To display a hero's remaining spell points, right-click on the Spell Point bar next to the hero in the hero list.	
+Custom Alliances	69	0	1	-1	0	0	69	Custom Alliances	You may set custom alliances before the first turn.	CUSTOM ALLIANCES
+
+Option 069 by Sir Four (script69)
+
+You may set custom alliances before the first turn.	
+Disable Autosave	25	0	1	-1	0	0	184	Disable Autosave	You may disable the autosave to speed up turns on slow machines.	DISABLE AUTOSAVE
+
+Option 184 by Timothy Pulver (script25)
+
+You may disable the autosave to speed up turns on slow machines. If the autosave is fast on your machine, there's no reason to disable it.	
+Abbreviated Skill Descriptions	75	0	1	-1	1	1	75	Abbreviated Skill Descriptions	Abbreviated skill descriptions will be displayed when right-clicking on secondary skills.	ABBREVIATED SKILL DESCRIPTIONS
+
+Option 075 by Hermann the Weird (script75)
+
+Abbreviated skill descriptions will be displayed when right-clicking on secondary skills.
+
+This option is for players who prefer to view abbreviated descriptions instead of the standard Heroes 3 paragraph-format descriptions. It's especially useful if you have multiple skill enhancements enabled; the standard paragraph text can be quite long and cumbersome.	
+Hero and Town List Reordering	25	0	1	-1	1	1	244	Hero and Town List Reordering	Shift-click on a hero or town in the list to move that hero or town to the top of the list.	HERO AND TOWN LIST REORDERING
+
+Option 244 by Timothy Pulver (script25)
+
+Shift-click on a hero or town in the hero or town list to move that hero or town to the top of the list.	
+Warlord's Banner Quick-Select Options	25	0	1	-1	1	1	240	Warlord's Banner Quick-select options	Ctrl-click on the coloured flag in the hero screen to quickly change options for all equipped Warlord's Banners in a hero's army.	WARLORD'S BANNER QUICK-SELECT OPTIONS
+
+Option 240 by Timothy Pulver (script25)
+
+Ctrl-click on the coloured flag in the hero screen to quickly change options for all equipped Warlord's Banners in a hero's army.
+
+You can also save current Banner options or load previously saved Banner options from this menu.
+
+Note: Saving and restoring of Banner options is based on stack position in a hero's army, so if you move a stack with a Banner and then restore options, they may not be set the way you expect.	
+Quick Combat Battle Options    	25	0	1	-1	1	1	233	Quick Combat Battle Options	Lets you choose Quick Combat for each battle or play it out normally, plus option to not use spell points.	QUICK COMBAT BATTLE OPTIONS
+
+Option 233 by Timothy Pulver (script25)
+
+With this option selected, you're given the choice for each battle to use Quick Combat, or to play out the battle normally.
+
+You may also choose a quick combat option with no spell use (by your hero) if you wish to conserve spell points.
+
+If you want to set the Quick Combat option and not see a message each time, right-click on System Options and the last Quick Combat option you chose will remain in effect until you again reenable the message choice and select a new option.
+
+Note 1: the Script Message Disabling option (page 1, Game Enhancements) must be enabled for the disabling feature to work. It's recommended that you turn this on so you can choose to disable the Quick Combat message during the game if you wish.
+Note 2: this option is disabled for multiplayer network battles.	
+Level 8 dwellings function as normal	0	0	2	0	0	0	0	Level 8 dwellings function as normal	Level 8 creature dwellings function the same as all other external creature dwellings.	LEVEL 8 DWELLINGS FUNCTION AS NORMAL
+
+Option 000 by Slava (hard coded)
+
+Level 8 dwellings function the same as all other external creature dwellings in the game.
+
+If this option is NOT selected, creatures can only be recruited once from the dwelling itself, but can be bought each week from an upgraded level 7 dwelling within a town of the same town type.
+
+The upgraded level 7 dwelling must be built before the start of a new week for level 8 creatures to show up there.
+
+For more details, see the "New Features for Heroes III: In the Wake of Gods" file in the "New Life of Heroes" folder, accessible from the Start menu.	
+Arrow towers gain experience    	0	0	2	1	1	1	1	Arrow towers gain experience	Arrow towers gain experience based on game time and battles won. Experienced towers do more damage.	ARROW TOWERS GAIN EXPERIENCE
+
+Option 001 by Slava (hard coded)
+
+Arrow towers gain experience based on game time and battles won. Experienced arrow towers deliver more damage per shot.
+
+If the player keeps control of a town for one week, the arrow towers on day 1 will receive additional experience and are amplified according to the following formula:
+
+No Bonus:  100% damage
+After 1 week:  200% damage
+After 2 weeks:  300% damage
+After 3 weeks:  400% damage
+After 4 weeks:  500% damage
+And so on.
+
+If a town successfully defends against a siege, it gets better as though one week had passed. If a town is captured, all saved up experience for towers is lost. The central shooting tower receives experience irrespective of the lower towers. The lower arrow towers receive experience simultaneously since they were both built at the same time.
+
+Multiplayer Note: The option is not currently compatible with network human vs. human battles and may cause the game to go out of sync. If the map is WoGified, this option will be auto-disabled if a network game is detected. If not WoGified, you should disable it yourself.	
+Troops can be left by right-clicking	0	0	2	2	1	1	2	Leave troops by right-clicking on adventure map	A single stack of troops can be left on an empty square adjacent to the hero by right-clicking on the map.	TROOPS CAN BE LEFT BY RIGHT-CLICKING
+
+Option 002 by Slava (hard coded)
+
+A single stack of troops can be left on an empty square adjacent to the hero by right-clicking on the map.
+
+The troops will not rejoin the player who left them but will instead vanish if attacked by that player unless the "rejoin owner" option is also selected.	
+Troops left will rejoin their owner     	0	0	2	3	1	1	10	Troops left will rejoin their owner	If a hero "attacks" a stack of troops previously left on an empty square by the same player, the troops will rejoin the hero.	TROOPS LEFT WILL REJOIN THEIR OWNER
+
+Option 010 by Slava (hard coded)
+
+If a hero "attacks" a stack of troops previously left on an empty square by the same player, the troops will join the hero free of charge.	
+Commanders are enabled              	0	0	2	4	1	1	3	Commanders are enabled	Commanders are enabled and each hero begins the game with one unless the "must be hired" option is also selected.	COMMANDERS ARE ENABLED
+
+Option 003 by Slava (hard coded)
+
+Commanders are enabled and each hero begins the game with one unless the "must be hired" option is also selected.	
+Commanders must be hired        	0	0	2	5	0	0	6	Commanders must be hired	Commanders are enabled but heroes do not start with them. They may be hired for 1000 gold from any town a player owns.	COMMANDERS MUST BE HIRED
+
+Option 006 by Slava (hard coded)
+
+Commanders are enabled but heroes do not start with them.
+
+A Commander may be hired for 1000 gold from any town a player owns.	
+Players can demolish towns      	0	0	2	6	1	1	4	Demolish town buildings by right-clicking	Players can demolish towns by right-clicking on a town building while a hero is visiting the town.	PLAYERS CAN DEMOLISH TOWNS
+
+Option 004 by Slava (hard coded)
+
+Players can demolish towns by right-clicking on a town building while a hero is visiting the town.
+
+A minimum hero level and army size may be required for demolition, and only a certain number of demolitions are allowed each day.
+
+A completely destroyed town may be rebuilt a week later as a town of the hero's own town type.
+
+For more details, see the "New Features for Heroes III: In the Wake of Gods" file in the "New Life of Heroes" folder, accessible from the Start menu.	
+Creature Dwellings accumulate creatures	0	0	2	7	0	0	7	Creature Dwellings accumulate creatures	External Creature Dwellings will accumulate unbought creatures from week to week, excluding L8 creatures.	CREATURE DWELLINGS ACCUMULATE CREATURES
+
+Option 007 by Slava (hard coded)
+
+External Creature Dwellings will accumulate unbought creatures from week to week.
+
+Note: Unbought Level 8 WoG creatures (aside from the Dracolich) will NOT accumulate in dwellings.	
+Creature Dwellings accumulate guards	0	0	2	8	0	0	8	Creature Dwellings accumulate guards	External Creature Dwellings that are guarded (Level 5+) will accumulate undefeated guards from week to week.	CREATURE DWELLINGS ACCUMULATE GUARDS
+
+Option 008 by Slava (hard coded)
+
+External Creature Dwellings that are guarded (Level 5+) will accumulate undefeated guards from week to week.	
+Sylvan Centaur creation is allowed	0	0	2	9	1	1	9	Sylvan Centaur creation is allowed	Grand Elves may be combined with Centaur Captains to create Sylvan Centaurs at no cost. Control-click on a stack in the Hero screen to combine them.	SYLVAN CENTAUR CREATION IS ALLOWED
+
+Option 009 by Slava (hard coded)
+
+Grand Elves may be combined with Centaur Captains to create Sylvan Centaurs at no cost. In the Hero screen, hold down the Control Key and click the Left Mouse Button on any stack of Grand Elves or Centaur Captains to combine them; they will be combined at a ratio of 1:1, so if you have, for example, 42 Centaur Captains and 14 Grand Elves, you will end up with 14 Sylvan Centaurs and 28 Centaur Captains after combining.
+
+Note: if Stack Experience is enabled, Sylvan Centaurs (upon creation) will lose ALL experience that the Grand Elves and Centaur Captains had accumulated, but they will gain experience normally after that.
+
+Important: creation of Sylvan Centaurs MUST be done in the Hero screen. The control-click for combining Centaur Captains with Grand Elves will not work in the town garrison screen or any other screen.	
+Stack Experience        	0	0	2	10	1	1	900	Troop Stacks gain Experience	Troop stacks gain experience after each battle and may go up in rank, improving their stats and/or abilities.	TROOP STACKS GAIN EXPERIENCE
+
+Option 900 by Slava (hard coded)
+
+Troop stacks lead by a hero will gain experience after each battle and may go up in rank, improving their stats and/or special abilities. Bonuses will only be visible in combat and may be different for each type of creature. Creatures without a hero never gain experience.
+
+Battle experience is awarded to each surviving creature after winning a battle. Stacks start at rank 0 and there are 10 ranks in total. It takes 1000 experience for a stack of rank 0 level 1 creatures to advance to rank 1 and this number increases each rank, much as a hero's experience does. Higher level creatures require more experience (see table below). There's a maximum limit (cap) on the amount of experience that may be gained from a single battle: 50% for level 1 creatures, 45% for level 2 and so on, with level 7's having a cap of 20%.
+
+The current rank (if above 0) is indicated by yellow carets (^) on the troop's stack icon. At 5th rank, the carets are replaced with a yellow sword and at 10th rank, two yellow swords. If you combine troops with different amounts of experience, the experience of the stacks will be averaged; this may result in a lower rank for the new combined stack. If experienced troops are upgraded, they lose 25% of their experience. If you leave a stack on an empty map square, the stack loses all experience.
+
+To see a troop stack's current experience and list of rank bonuses (in or out of combat), double-click on it to bring up the info screen, then right-click on the creature's portrait.
+
+Creature     Experience     Experience
+      Level        for Rank 1      for Rank 10
+    1                 1000                 17500
+    2                 2000                 35000
+    3                 3000                 52500
+    4                 4000                 70000
+    5                 5000                 87500
+     6                 6000               105000
+     7                 7000               122500
+     8                 8400               147000	
+Artifacts may be left by right-clicking	0	0	2	11	1	1	902	Artifacts may be left by right-clicking	A single artifact may be left on an empty square adjacent to the hero by right-clicking on the map.	ARTIFACTS CAN BE LEFT BY RIGHT-CLICKING
+
+Optio 902 by Slava (hard coded)
+
+A single artifact may be left on an empty square adjacent to the hero by right-clicking on the map.
+
+Note: Only Artifacts in a hero's backpack can be left. If the artifact is equipped, it must first be placed in the hero's backpack.
+
+Warning: If you use this option as well as the Map Rule "Heroes pick up double artifacts," it's possible to create unlimited copies of almost any artifact, therefore we strongly advise against combining these two options.	
+Disable Cheat Codes and Menu        	0	0	2	12	0	0	903	Disable Cheat Codes and Menu	Disables the cheat codes and cheat menu (if normally enabled).	DISABLE CHEAT CODES AND MENU
+
+Option 903 by Slava (hard coded)
+
+Disables the cheat codes and menu (if normally enabled). If the cheat menu is enabled, it will still appear (even if disabled with this option), but clicking on menu items has no effect.
+
+Note: Although cheat codes do not normally work in multiplayer games, this option will prevent players using the cheat codes and menu by loading saved games in single player mode.	
+AI Stack Experience Difficulty - Default	0	0	3	0	1	1	229	Default  (Linked to Player Difficulty)	The rate that AI hero and garrison troops gain Stack Experience is determined by the Player Difficulty level chosen.	AI STACK EXPERIENCE DIFFICULTY - DEFAULT
+
+Option 229-0 by Timothy Pulver (script00)
+
+The rate that AI hero and garrison troops gain Stack Experience is determined by the Player Difficulty level chosen on the Scenario Selection screen.
+
+EASY
+AI Multiplier:  100%
+AI Garrison Multiplier:  x10
+AI Additional Experience:  +50
+
+NORMAL
+AI Multiplier:  200%
+AI Garrison Multiplier:  x25
+AI Additional Experience:  +100
+
+HARD
+AI Multiplier:  300%
+AI Garrison Multiplier:  x50
+AI Additional Experience:  +200
+
+EXPERT
+AI Multiplier:  400%
+AI Garrison Multiplier:  x75
+AI Additional Experience:  +300
+
+IMPOSSIBLE
+AI Multiplier:  500%
+AI Garrison Multiplier:  x100
+AI Additional Experience:  +400	
+AI Stack Experience Difficulty - No Experience	0	0	3	1	0	0	229	None  (AI gains no stack experience at all)	AI hero and garrison troops will NOT gain Stack Experience from battles.	AI STACK EXPERIENCE DIFFICULTY - NONE
+
+Option 229-1 by Timothy Pulver (script00)
+
+AI hero and garrison troops will NOT gain Stack Experience from battles.
+
+This means that if Stack Experience is enabled, only human players will normally benefit from it.	
+AI Stack Experience Difficulty - Easy	0	0	3	2	0	0	229	Easy  (AI gains stack experience slowly)	The rate that AI hero and garrison troops gain Stack Experience is set to Easy.	AI STACK EXPERIENCE DIFFICULTY - EASY
+
+Option 229-1 by Timothy Pulver (script00)
+
+The rate that AI hero and garrison troops gain Stack Experience is set to Easy.
+
+AI Multiplier:  100%
+AI Garrison Multiplier:  x10
+AI Additional Experience:  +50	
+AI Stack Experience Difficulty - Normal	0	0	3	3	0	0	229	Normal  (AI gains stack experience normally)	The rate that AI hero and garrison troops gain Stack Experience is set to Normal.	AI STACK EXPERIENCE DIFFICULTY - NORMAL
+
+Option 229-2 by Timothy Pulver (script00)
+
+The rate that AI hero and garrison troops gain Stack Experience is set to Normal.
+
+AI Multiplier:  200%
+AI Garrison Multiplier:  x25
+AI Additional Experience:  +100	
+AI Stack Experience Difficulty - Hard	0	0	3	4	0	0	229	Hard  (AI gains stack experience quickly)	The rate that AI hero and garrison troops gain Stack Experience is set to Hard.	AI STACK EXPERIENCE DIFFICULTY - HARD
+
+Option 229-3 by Timothy Pulver (script00)
+
+The rate that AI hero and garrison troops gain Stack Experience is set to Hard.
+
+AI Multiplier:  300%
+AI Garrison Multiplier:  x50
+AI Additional Experience:  +200	0
+AI Stack Experience Difficulty - Expert	0	0	3	5	0	0	229	Expert  (AI gains stack experience rapidly)	The rate that AI hero and garrison troops gain Stack Experience is set to Expert.	AI STACK EXPERIENCE DIFFICULTY - EXPERT
+
+Option 229-4 by Timothy Pulver (script00)
+
+The rate that AI hero and garrison troops gain Stack Experience is set to Expert.
+
+AI Multiplier:  400%
+AI Garrison Multiplier:  x75
+AI Additional Experience:  +300	
+AI Stack Experience Difficulty - Impossible	0	0	3	6	0	0	229	Impossible  (AI gains stack experience very fast)	The rate that AI hero and garrison troops gain Stack Experience is set to Impossible.	AI STACK EXPERIENCE DIFFICULTY - IMPOSSIBLE
+
+Option 229-5 by Timothy Pulver (script00)
+
+The rate that AI hero and garrison troops gain Stack Experience is set to Impossible.
+
+AI Multiplier:  500%
+AI Garrison Multiplier:  x100
+AI Additional Experience:  +400	
+Custom Human/AI Experience Multipliers	0	0	3	7	0	0	229	Custom  (Choose Human/AI experience multipliers)	Enter human and/or AI experience multiplier values to change the rate of experience gained.	CUSTOM EXPERIENCE MULTIPLIERS
+
+Option 229-6 by Timothy Pulver (script00)
+
+This lets you enter experience multiplier values for the Human and/or AI to adjust the rate of stack experience gained from battles.
+
+You can also set the AI Additional Experience and Town Garrison Multiplier values.
+
+Note: On first use, all values default to the Player Difficulty level chosen on the Scenario Selection screen. Custom values entered will be automatically saved between games.	
+Towns start without forts         	25	1	0	0	0	0	131	Towns start without forts	All towns in the game start without a fort built. To give the AI a boost, also select the option below. 	TOWNS START WITHOUT FORTS
+
+Option 131 by Timothy Pulver (script25)
+
+All towns in the game start without a fort built. To give the AI a boost, also select the option below.	
+Only human/neutral towns have no forts 	25	1	0	1	0	0	144	Only human and neutral towns start without forts	Only human and neutral towns start without forts. AI players will usually have a fort in their starting town.	ONLY HUMAN/NEUTRAL TOWNS START WITHOUT FORTS
+
+Option 144 by Timothy Pulver (script25)
+
+Only human and neutral towns start without forts. AI players will usually have a fort in their starting town.	
+Cartographers are replaced by CODs     	25	1	0	-1	1	1	145	Cartographers are replaced by Covers of Darkness	All cartographers are removed and replaced by Covers of Darkness.	CARTOGRAPHERS ARE REPLACED
+
+Option 145 by Timothy Pulver (script25)
+
+All cartographers are removed from the map and replaced by Covers of Darkness.
+
+This option is recommended for everyone who feels that gradually exploring the map is one of the more enjoyable aspects of the game--suddenly revealing the whole map tends to spoil a lot of the fun.	
+Most Dragon Fly Hives are replaced	0	1	0	-1	1	1	165	Most Dragon Fly Hives are replaced	80% of Dragon Fly Hives will be randomly replaced by a Windmill, Witch Hut or Camp Fire.	MOST DRAGON FLY HIVES ARE REPLACED
+
+Option 165 by Timothy Pulver (script00)
+
+80% of Dragon Fly Hives will be randomly replaced by a Windmill, Witch Hut or Camp Fire.	
+Some chests contain more gold        	0	1	0	-1	1	1	132	Some standard Treasure Chests contain more gold	Some standard treasure chests contain more gold.	SOME TREASURE CHESTS CONTAIN MORE GOLD
+
+Option 132 by Donald X. Vaccarino (script00)
+
+Some standard Treasure Chests contain more gold.
+
+There's an 8% chance per chest that it contains 2500 gold and a 2% chance per chest that it contains 3000 gold.	
+Some dwellings have upgraded creatures	0	1	0	-1	1	1	133	Some Dwellings have upgraded creatures	Approximately 25% of dwellings will sell upgraded creatures.	SOME DWELLINGS SELL UPGRADED CREATURES
+
+Option 133 by Donald X. Vaccarino (script00)
+
+Approximately 25% of Dwellings will sell upgraded creatures.	
+Some monsters replaced with WoG monsters	0	1	0	-1	1	1	139 	Some Monsters are replaced with WoG Monsters	A percentage of regular Monsters will be replaced with WoG Monsters.	SOME MONSTERS ARE REPLACED WITH WoG MONSTERS
+
+Option 139 by Donald X. Vaccarino (script00)
+
+A percentage of regular Heroes III Monsters will be replaced with WoG Monsters.
+
+About 50% of upgraded level 7 creatures will be replaced by half as many level 8 creatures.
+
+Between 3% and 8% of creatures of other levels will be replaced with WoG creatures of a similar level.
+
+The WoG Monsters are: Supreme Archangel, Diamond Dragon, Lord of Thunder, Antichrist, Blood Dragon, Darkness Dragon, Ghost Behemoth, Hell Hydra, Sacred Phoenix, Fire Messenger, Earth Messenger, Air Messenger, Water Messenger, Gorynych, War Zealot, Arctic Sharpshooter, Lava Sharpshooter, Nightmare, Santa Gremlin, Sylvan Centaur, Sorceress, Werewolf, Hellsteed, Dracolich.
+
+Note: Monsters with customized text or treasure, or those set to always join or always fight, will not be replaced.	
+Some Level 3 Monsters replaced with Ghosts	0	1	0	-1	0	0	242	Some Level 3 Monsters replaced with Ghosts	Approximately 5% of regular Level 3 monsters will be replaced with Ghosts.	SOME LEVEL 3 MONSTERS REPLACED WITH GHOSTS
+
+Option 242 by Timothy Pulver (script00)
+
+Approximately 5% of Level 3 monsters will be replaced with Ghosts. However, the Ghost stacks will be set to never join.
+
+Note: Monsters with customized text or treasure, or those set to always join or always fight, will not be replaced.	
+Special Terrain patches may be added   	0	1	0	-1	1	1	142	Patches of Special Terrain may be added	Depending on map size, between 4 and 16 patches of Special Terrain may be added to the map.	SPECIAL TERRAIN MAY BE ADDED
+
+Option 142 by Donald X. Vaccarino (script00)
+
+Depending on map size, between 4 and 16 patches of Special Terrain may be randomly added to the map.	
+First Money                     	40	1	0	-1	0	0	40	First Money	Gives money and resources at the beginning of the game.	FIRST MONEY
+
+Option 040 by Alexis Koz (script40)
+
+Every player (and computer too) is given 12000 gold, 20 wood, 20 ore, 10 mercury, 10 sulfur, 10 crystals and 10 gems once at the beginning of the game.	
+Enable Extension Heroes           	25	1	0	-1	0	0	100	Enable Extension Heroes	Enables extension heroes to appear on the map (in taverns and possibly prisons). However, you can't select an extension hero to start the game with.	ENABLE EXTENSION HEROES
+
+Option 100 by Timothy Pulver (script25)
+
+Enables extension heroes to appear on the map (in taverns and possibly prisons). However, you can't select an extension hero to start the game with, but if you select a random starting hero there's a small chance that an extension hero will be chosen.
+
+If Hourglass of Asmodeus is enabled, all extension heroes except Xeron will be enabled. If Hourglass of Asmodeus isn't enabled, all extension heroes including Xeron will be enabled.	
+Week of Monsters                    	20	1	1	0	1	1	20	Week of Monsters	Each week after the first is either a special monster week or a special resource week.	WEEK OF MONSTERS
+
+Option 020 by Timothy Pulver (script20)
+
+Each week after the first is either a special monster week or a special resource week. With this script enabled there are no Plague weeks. Monster weeks add to the statistics and growth of the monster during the week and resource weeks double mine production.
+
+The weeks follow a cycle that includes a random monster week, a resource week, and a week for each of the remaining players in the game.
+
+On a player's week, one monster that was carried by one of the player's heroes at the start of the previous week will be picked for this week's monster.
+
+TIP: to see the current Monster Week at any time, right-click on the End-Turn (hourglass) icon.	
+Resource weeks produce resource piles	20	1	1	1	1	1	134	   > Resource weeks produce resource piles	A small number of resource piles will be randomly placed at the start of a special resource week.	RESOURCE WEEKS PRODUCE RESOURCE PILES
+
+Option 134 by Timothy Pulver (script20)
+
+A small number of resource piles will be randomly placed at the start of a special resource week.	
+Monster weeks spawn wandering monsters	20	1	1	2	0	0	135	   > Monster weeks spawn wandering monsters	A small number of wandering monsters will be randomly placed at the start of a special monster week.	MONSTER WEEKS SPAWN WANDERING MONSTERS
+
+Option 135 by Timothy Pulver (script20)
+
+A small number of wandering monsters will be randomly placed at the start of a special monster week.
+
+The number of monsters placed depends on the map size: 2 for a small map, 4 for a medium map, 6 for a large map and 8 for an extra large map. This number is for each map level, so on a small map with underground there would be four monsters placed, two on the surface and two underground.
+
+Higher level monsters won't be placed until a bit later in the game even if they occur as a monster of the week early on. War machines, ghosts and Level 8 monsters will never be placed on the map.	
+Monster weeks spawn stationary monsters	20	1	1	3	1	1	136	   > Monster weeks spawn stationary monsters	A small number of stationary monsters will be randomly placed at the start of a special monster week.	MONSTER WEEKS SPAWN STATIONARY MONSTERS
+
+Option 136 by Timothy Pulver (script20)
+
+A small number of stationary monsters will be randomly placed at the start of a special monster week.
+
+The number of monsters placed depends on the map size: 2 for a small map, 4 for a medium map, 6 for a large map and 8 for an extra large map. This number is for each map level, so on a small map with underground there would be four monsters placed, two on the surface and two underground.
+
+Higher level monsters won't be placed until a bit later in the game even if they occur as a monster of the week early on. War machines, ghosts and Level 8 monsters will never be placed on the map.	
+Synchronize Refugee Camps	20	1	1	4	1	1	200	   > Refugee Camps match monster week	Refugee Camps will produce the same monster as the current monster week but remain random on resource weeks.	SYNCHRONIZE REFUGEE CAMPS
+
+Option 200 by Timothy Pulver (script20)
+
+Refugee Camps will produce the same monster as the current monster week but remain random on resource weeks.	
+Mithril Enhancements               	36	1	1	5	1	1	36	Mithril Enhancements	Lets the player use Mithril to enhance various map sites.	MITHRIL ENHANCEMENTS
+
+Option 036 by Anders Jonsson (script36)
+
+Mithril can be used to upgrade certain structures in different ways. Upgrades available may differ based on which map rules are currently active.
+
+To see your available Mithril, right-click the Kingdom Overview button.  To display the Mithril price list, press Ctrl-K on the keyboard.
+
+IMPORTANT: to enhance an object with Mithril, hold down Ctrl and left-click on the object's trigger square.	
+Mithril Display	36	1	1	6	1	1	149	Mithril Display	Displays a message when Mithril is picked up and also your total Mithril if you right-click the Kingdom Overview button.	MITHRIL DISPLAY
+
+Option 149 by Timothy Pulver and Anders Jonsson (script36)
+Mithril Price List Graphic: Dieter Averbeck
+
+Displays a message when Mithril is picked up and also your total Mithril if you right-click the Kingdom Overview button.
+
+If the Mithril Enhancement options is enabled, pressing Ctrl-K on the keyboard will display the Mithril price list.	
+Mithril Resource Stack Replacement	36	1	1	7	1	1	170	Mithril Resource Stack Replacement	Some resource stacks are replaced with Mithril.	MITHRIL RESOURCE REPLACMENT
+
+Option 170 by Anders Jonsson (script00 and script36)
+
+Some resource stacks are replaced with Mithril.	
+Windmills & Mys. Gardens may give Mithril 	36	1	1	8	1	1	171	Windmills and Mystical Gardens may give Mithril	Windmills and Mystical Gardens may give Mithril when visited.	WINDMILLS AND MYSTICAL GARDENS MAY GIVE MITHRIL
+
+Option 171 by Anders Jonsson (script36)
+
+Windmills and Mystical Gardens may give Mithril when visited.	
+Universal Creature Upgrade	25	1	1	-1	0	0	174	Universal Creature Upgrades	Creatures may be upgraded at any town type if the appropriate level of upgraded dwelling is built.	UNIVERSAL CREATURE UPGRADES
+
+Option 174 by Timothy Pulver (script25)
+
+Creatures may be upgraded at any town type if the appropriate level of upgraded dwelling is built.	
+Extended Creatures Upgrades	25	1	1	-1	0	0	173	Extended Creature Upgrades	Some creatures without upgrades gain upgrades, and some upgraded creatures can be further upgraded to new creatures.	EXTENDED CREATURE UPGRADES
+
+Option 173 by Timothy Pulver (script25)
+
+Some creatures without upgrades gain upgrades, and some upgraded creatures can be further upgraded to new creatures.
+
+In most cases you'll need to visit a Hill Fort to perform these upgrades unless the Universal Creature Upgrades option is also enabled.
+
+Note: Master Gremlins will upgrade to Halflings and not Santa Gremlins if Rebalanced Creatures is also active.
+
+Extended Upgrades List
+--------------------------------
+Zealots --> War Zealots
+Archangels --> Supreme Archangels
+Grand Elves --> Sylvan Centaurs
+Gold Dragons --> Diamond Dragons
+Master Gremlins --> Santa Gremlins
+Iron Golems --> Gold Golems
+Gold Golems --> Diamond Golems
+Titans --> Lords of Thunder
+Arch Devils --> Antichrists
+Zombies --> Mummies
+Ghost Dragons --> Blood Dragons
+Black Dragons --> Darkness Dragons
+Ancient Behemoths --> Ghost Behemoths
+Chaos Hydras --> Gorynyches
+Gorynyches --> Hell Hydras
+Storm Elementals --> Air Messengers (Hill Forts only)
+Magma Elementals --> Earth Messengers (Hill Forts only)
+Energy Elementals --> Fire Messengers (Hill Forts only)
+Ice Elementals --> Water Messengers (Hill Forts only)
+Phoenixes --> Sacred Phoenixes
+Sharpshooters --> Arctic Sharpshooters
+Arctic Sharpshooters --> Lava Sharpshooters
+Enchanters --> Sorceresses
+Sorceresses --> Enchanters
+Hell Steeds --> Nightmares	
+Masters of Life	19	1	2	-1	0	0	19	Masters of Life	Peasants and 1st level creatures of the same town as the hero (except Necropolis) in the hero's army become upg. 1st level creatures each turn.	MASTERS OF LIFE
+
+Option 019 by Sir Four (script19)
+
+Peasants and 1st level creatures of the same town as the hero (for all town types except Necropolis) in the hero's army become upgraded 1st level creatures at the beginning of each turn.
+
+Note: If "Some dwellings have upgraded creatures" and "Master of life" options are both enabled, L1-Dwellings will always have upgraded creatures (exception: neutral town - halflings are not automatically upgraded to rogues).	
+Passable Terrain	63	1	2	-1	0	0	63	Passable Terrain	This option lets your heroes move slowly through trees, mountains and other objects, but there are potential hazards too.	PASSABLE TERRAIN
+
+Option 063 by Timothy Pulver (script63)
+
+With this option enabled, mountains, trees, flowers  and most other terrain can be moved through, but at a slower rate than normal movement. Pathfinding reduces the cost of moving through these terrain obstacles.
+
+There are dangers, however. When moving through trees, you may be ambushed.  When moving through mountains, you may lose troops to a deadly landslide.  Skills such as Pathfinding, Scouting and Luck can help avoid landslides, and Scouting will sometimes let you spot an ambush in advance.
+
+In addition, to prevent heroes from sneaking up and grabbing treasures from monsters *too* easily, the monsters on the map will now attack if any treasure they're adjacent to is picked up, even if that wouldn't normally have triggered a combat. Treasures include treasure chests, resource piles, artifacts, and camp fires.
+
+WARNING: this option significantly changes the way Heroes plays so be prepared for a very different game. Take care where you move; the pathfinder will indicate the shortest route, even through trees and mountains, but doesn't know you'll be moving slower.	
+Transfer Owner	64	1	2	-1	1	1	192	Transfer Owner	Transfer any flagged object you own to another color.	TRANSFER OWNER
+
+Option 192 by Tobyn (script64)
+
+Enables ownership transference of own heroes,
+towns, mines, dwellings, lighthouses, shipyards
+and garrisons to any active color, incl. none.
+
+Right-click on chat bar to activate/deactivate,
+then right-click on a flagged object you own.
+
+You can also init transfer via SHIFT+left-click.	
+Monolith Toll	65	1	2	-1	1	1	65	Monolith Toll	Applies a toll for the advantage of using a two-way lith. AI pays the toll if possible but can still use liths regardless.	MONOLITH TOLL
+
+Option 065 by Steven Lynch (script65)
+
+Normally with two-way liths there is no cost for quite high reward: to be able to visit many areas of the map and gain access to non-guarded items and map locations. It seems to make sense to have some sort of cost for using two-way liths, even if not extravagant. One-way liths will continue to be free, as they are not susceptible to being used over and over again like two-way liths are.
+
+The cost to use a two-way lith is 100 gold per week for human players and 50 gold per week for AI players, but if the AI has no gold, it will still be able to use the lith.	
+Neutral Town	67	1	2	-1	0	0	67	Neutral Town	Conflux Town troops are replaced with a selection of neutral creatures instead.	NEUTRAL TOWN
+
+Option 067 by Donald X. Vaccarino, Jonas Gustafsson, Timothy Pulver, Kerill Kennedy, and Samot (script67)
+
+Conflux Town troops are replaced with a selection of neutral creatures. Also, Conflux Heroes will have low-level neutral troops instead of regular Conflux troops and the might Conflux Heroes have new specialties.
+
+External Conflux and Neutral map Dwellings will be swapped to match the new town creatures.
+
+Neutral Town Troops
+-----------------------------
+Level 1 non-upgraded: Halflings
+Level 1 upgraded: Rogues
+Level 2 non-upgraded: Boars
+Level 2 upgraded: Nomads
+Level 3 non-upgraded: Fire Messengers
+Level 3 upgraded: Air Messengers
+Level 4 non-upgraded: Werewolves
+Level 4 upgraded: Trolls
+Level 5 non-upgraded: Sorceresses
+Level 5 upgraded: Enchanters
+Level 6 non-upgraded: Hell Steeds
+Level 6 upgraded: Nightmares
+Level 7 non-upgraded: Gorynyches
+Level 7 upgraded: Rust Dragons
+
+Note: creature growth and costs of some of the Neutral Town creatures have been adjusted to better fit their new levels. Fire and Air Messengers have adjusted stats and gain the double-strike ability. Air Messengers can also fly.	
+New Battlefields	68	1	2	-1	0	0	68	New Battlefields	New Battlefield pictures will often be used in combat. This has no affect on the battles but adds some visual variety.	NEW BATTLEFIELDS
+
+Option 068 by Donald X. Vaccarino, Overlord, Dutch, Jonas Gustafsson, and Timothy Pulver (script68)
+
+New Battlefield pictures will often be used in combat. This has no affect on the battles but adds some visual variety.
+
+Note: new PCX files are required for this script. If you have the script but not the graphics, you won't see new battlefields.	
+Castle Upgrading	45	1	2	-1	0	0	45	Castle Upgrading	City Halls and Capitols may be upgraded to increase daily income. Upgraded town dwellings may be upgraded to increase troop growth.	CASTLE UPGRADING
+
+Option 045 by Alexis Koz (script45)
+
+City Halls and Capitols  may be upgraded to increase daily income. Upgraded town dwellings may be upgraded to increase troop growth.
+
+To upgrade the City Hall or Capitol, left-click the Hall icon (just below the town name) in the town screen. The first Hall upgrade costs 7000 gold plus 2 Mithril and increases daily income by 1000 gold. Additional upgrades in the same town increase in cost.
+
+To increase growth in upgraded creature dwellings, left-click the town picture (to the left of the town name). Each upgrade increases growth by one. The initial troop growth upgrade for a given dwelling costs equal to the original cost of the upgraded dwelling. Additional growth upgrades for that dwelling increase in cost.
+
+Computer players will build one upgrade of each building type per week.	
+Creature Relationships	47	1	2	-1	0	0	47	Creature Relationships	Chance of infighting in any hero's army that contains creatures that hate one another. Creatures that like each-other have a chance per day to be upgraded for free.	CREATURE RELATIONSHIPS
+
+Option 047 by Qurqirish Dragon (script47)
+
+This script causes a chance of infighting in any hero's army that contains creatures that hate one another. These hatreds include:
+All angels vs. all devils, 
+titans and lords of thunder vs. black and darkness dragons,
+All genies vs. all efreeti,
+All orcs (including boar riders) vs. all elves (including pegasus riders),
+All pixies vs. all imps,
+All Rampart dragons vs. all Necropolis dragons,
+All cavaliers vs. all black knights, and
+Rust Dragons vs. all gorgons
+
+Creatures that like each-other have a chance per day to be upgraded for free (must have both types):
+monks and mages, 
+archers and elves (sharpshooters don't upgrade, but help),
+griffins and rocs (firebirds don't upgrade, but help),
+efreeti and fire elementals (fire messengers help)	
+Monster Mutterings                  	22	1	2	-1	0	0	22	Monster Mutterings	When attacked, monsters mutter and say strange things. All of it is complete but amusing nonsense.	MONSTER MUTTERINGS
+
+Option 022 by Timothy Pulver (script22)
+
+When attacked, monsters mutter and say strange things. All of it is complete but amusing nonsense.
+
+You can disable or enable the mutterings at any time by right-clicking the Systems Options button and making your selection. Disabling in this fashion only disables the mutterings for the current player.
+
+Note: the Script Message Disabling option (page 1, Game Enhancements) must be enabled for the disabling feature to work. It's recommended that you turn this on so you can choose to disable the mutterings during the game if you wish.	
+Karmic Battles                    	38	1	2	-1	0	0	38	Karmic Battles	Heroes must fight additional creatures when they attack a monster stack or are attacked by wandering monsters.	KARMIC BATTLES
+
+Option 038 by Dieter Averbeck (script38)
+
+This script modifies all battles against Wandering Monsters. All Wandering Monsters will get some help from "friends". The script summons various stacks of monsters for every battle. The number of stacks, number of creatures and the level of the creatures are randomly calculated and depend on the number of Karmic Battles a single hero has already fought.	
+Battle Extender                 	41	1	2	-1	0	0	41	Battle Extender	Increases the duration and improves the difficulty of battles.	BATTLE EXTENDER
+
+Option 041 by Alexis Koz (script41)
+
+Changes Parameters of monsters:
+
+- Each level 1-6 monster gets additional hit points.
+
+- Each shooter decreases its number of shots to 3/4 of its original quantity.
+
+- Each monster gets additional Defense.
+
+- Each monster has reduced Speed.	
+Rewritable Signs	25	1	3	-1	1	1	183	Rewritable Signs	If you visit a sign, you have the option of writing a new message on it. Also, after visiting any sign, you can right-click on it to reread the message.	REWRITABLE SIGNS
+
+Option 183 by Timothy Pulver (script25)
+
+If you visit a sign, you have the option of writing a new message on it. Also, after visiting any sign, you can right-click on it to reread the message.	
+Split Decision	62	1	3	-1	0	0	62	Split Decision	During combat, an army commanded by a hero may split a troop stack into two stacks by ctrl-clicking on the active stack.	SPLIT DECISION
+
+Option 062 by Timothy Pulver (script62)
+
+During combat, an army commanded by a hero may split a stack into two stacks by ctrl-clicking on the active stack.
+
+Each stack may only be split once per combat. War Machines, Metamorphs and creatures that join a battle after it has started (e.g., summoned Elementals) cannot be split. After the battle, split stacks will recombine.
+
+You may also combine two adjacent stacks of the same type during combat by ctrl-clicking on the adjacent stack on the acting stack's turn.
+
+Note: this option is disabled for network battles.	
+Random Hero	72	1	3	-1	0	0	72	Random Hero	A random hero may help defend a neutral stack of monsters.	RANDOM HERO
+
+Option 072 by Bonizag (script72)
+
+There is a 25% chance that a random hero will appear on the monsters' side and help them fight. If the Enchanced War Machines III script is enabled, the number of war machines of the random hero depends on the strength of the monsters.	
+Loan Bank                                 	5	1	3	-1	1	1	105	Loan Bank	Click on a Town's Gold Icon (below the town name) to visit the Bank and take out a loan of gold and/or resources.	LOAN BANK
+
+Option 105 by Donald X. Vaccarino and Hermann the Weird (script05)
+
+Left-click on a town's Gold Icon (below the town name) to visit the Bank and take out a loan. Right-click on the icon to display your current outstanding loans (including interest).
+
+The Bank will give any player a loan of up to 5000 gold and/or up to 5 of any one resource, but it must be paid back with 30% interest, starting the next day.
+
+The maximum loan amount will increase over time at a rate of one hundred gold per day and one resource every two weeks.
+
+At the start of each day, the Bank will take up to half of the player's gold and/or borrowed resource until the debts are repaid. Another loan cannot be taken out until the first has been repaid in full. However, both a gold loan and a resource loan may be taken out at the same time.
+
+Note: You must have a marketplace built in the town before you can visit the Bank.	
+Allow Building Twice per Day in Towns	25	1	3	-1	0	0	228	Allow Building Twice per Day in Towns	Human players may build up to twice per day in towns. The AI will get free builds instead.	ALLOW BUILDING TWICE PER DAY IN TOWNS
+
+Option 228 by Timothy Pulver (script25)
+
+Human players may build up to twice per day in towns. The AI will get free builds instead, in addition to any normal daily build it may make.
+
+At Easy difficulty, the AI gets a free build every 4 days.
+At Normal difficulty, the AI gets a free build every 3 days.
+At Hard difficulty, the AI gets a free build every 2 days.
+At Expert difficulty, the AI gets a free build every day.
+At Impossible difficulty, the AI gets 2 free builds every day.
+
+Free AI builds apply to each town the AI owns.
+
+Warning: There is NO check for disabled buildings for the free AI town builds, so use this option with caution in custom maps.	
+Select Neutral Town Types	25	1	3	-1	0	0	220	Select Neutral Town Types	Select the neutral town types that may appear on the map.	SELECT NEUTRAL TOWN TYPES
+
+Option 220 by Timothy Pulver (script25)
+
+When selected, a dialogue box appears at map start that lets you exclude up to 8 town types for neutral towns.
+
+For example, if you want a game with only Stronghold and Fortress towns, just exclude all other types.	
+Neutral Unit Bonuses             	57	1	3	-1	0	0	57	Neutral Unit Bonuses	Adds approximately +2 Attack, +2 Defense, +10.5-12.5% Health, Bless and other spells to neutral units each week.	NEUTRAL UNIT BONUSES
+
+Option 057 by Alexandru Balahura (script57)
+
+Adds +1 Attack, +1 Defense, plus an additional +1 Attack, +1 Defense, and +6-6.99% Health for every 4 game days. This results in approximately +2 Attack, +2 Defense and +10.5-12.25% Health every week, but note that the Health bonus only applies to creatures with a starting Health of 15 or higher (also, all units that will reach 15 health will receive approximately +2 Attack, +2 Defense and +10.5-12.25% Health every week; e.g: centaurs, pikemen).
+
+Gives Bless to neutral units, plus shooting units gain Precision.
+
+These neutral units gain Magic Mirror: Genies, Master Genies, Efreeti, Efreet Sultans, Ogre Magi, Santa Gremlins.
+
+These neutral units gain Air Shield: Skeletons, Skeleton Warriors, Air Elementals, Storm Elementals, Wights, Wraiths, Ghosts, Bone Dragons, Ghost Dragons.
+
+These neutral units gain Fire Shield: Fire Elementals, Energy Elementals, Firebirds, Phoenixes.
+
+These neutral units gain immunity to Mind spells: Angels, Archangels, Supreme Archangels, Devils, Arch Devils, Antichrists, Behemoths, Ancient Behemoths, Ghost Behemoths, Hydras, Chaos Hydras, Hell Hydras, Firebirds, Phoenixes and Sacred Phoenixes.
+
+These neutral units gain immunity to Fire school spells: Devils, Arch Devils, Antichrists.
+
+A "neutral unit" is defined as a monster stack on the map or any other unowned monster that you do battle with when visiting an adventure map site or neutral town.
+
+WARNING: This script makes the game very hard (almost insane) and is recommended only for skilled players or for those who want to train for the World Championship.
+
+TIP: For recommendations and hints check the script 57.	
+Neutral Stack Size	57	1	3	-1	0	0	232	Neutral Stack Size	The size of neutral monster stacks on the adventure map are increased to provide extra challenge.	NEUTRAL STACK SIZE
+
+Option 232 by Alexandru Balahura (script57)
+
+All neutral monster stacks on the adventure map will be adjusted so that they contain more creatures and their hostility rating is set to Savage unless the "do not grow" checkbox was checked by the map maker.
+
+Starting with more creatures will also effectively result in them growing faster, although the actual weekly rate of growth remains unchanged.
+
+Formula is:
+
+Level 1 Units: 30-50 +10% per week
+Level 2 Units: 30-40 +10% per week
+Level 3 Units: 35-50 +10% per week
+Level 4 Units: 50 + 10% per week
+Level 5 Units: 50 + 10% per week
+Level 6 Units: 50 + 10% per week
+Level 7 Units: 20-30 + 10% per week
+Level 8 Units: 20 + 10% per week
+
+Remember, if this script is enabled, monster stacks will always be savage (only monsters left by a hero on the map will join again). Therefore, do not use Diplomacy as the skill is useless with this script.
+
+Note:
+
+This script now works correctly with Custom Maps too.
+
+For Instance:
+
+If you have a throng of Angels on the map, their number will not be decreased to 30 at the start of the map.	
+Neutral Stack Experience	57	1	3	-1	1	1	231	Neutral Stack Experience	Neutral units will be experienced, depending on their level, the game date and the player difficulty level chosen.	NEUTRAL STACK EXPERIENCE
+
+Option 231 by Timothy Pulver (script57)
+
+Neutral units will be experienced when you do combat with them. Their rank will depend on their level, the game date and the player difficulty level chosen.
+
+Level 1 and 2 neutral units will have one rank of experience for every week of game play at Normal game difficulty. Level 3-4 units will have one rank for every two weeks, level 5-6 will have one rank for every three weeks, and level 7+ will have one rank for every four weeks.
+
+Higher game difficulties will increase the rate. For example, at Impossible difficulty, a level 7 unit will have one rank for every 12 game days.
+
+Easy difficulty doubles the interval of Normal difficulty, so neutral units will gain ranks considerably slower.
+
+However, regardless of the game date or level, neutral units will never be more than 1 rank higher than the attacking hero's level. So a level 1 hero will never face anything higher than a rank 2 neutral unit in combat.
+
+A "neutral unit" is defined as a monster stack on the map or any other unowned monster that you do battle with when visiting an adventure map site.	
+Neutral Town and Creature Bank Growth  	57	1	3	-1	0	0	235	Neutral Town and Creature Bank Growth	Neutral town and creature bank guards grow by 10% each week (minimum +1 per stack) and new stacks may be added.	NEUTRAL TOWN AND CREATURE BANK GROWTH
+
+Option 235 by Timothy Pulver and Samot (script57)
+
+Neutral Town Guards grow by 10% each week per stack (minimum +1), and gain higher level creatures if an empty guard slot is available. There's also a 10% chance per stack each week that a guard stack will be upgraded.
+
+Neutral Creature banks also grow by 10% each week per stack (minimum +1), and empty slots will be soon be filled with additional creatures. Creature Banks also acquire a Commander of the associated town type, and their resources grow at a rate of 10% every 3 weeks (minimum +1).
+
+After 28 days, a defeated Creature Bank will respawn, but beware--sometimes the creatures are more powerful than before (especially Dragon Utopias!).
+
+Abandoned mines are guarded by at least 7 stacks of Ghosts. Their numbers increase daily by 101-103% + 1-3 ghosts. If an AI hero visits an abandoned mine it only has to fight against an increased stack of troglodytes.
+
+Guards of Local Events and Pandora's Boxes increase by 10% per week (at least 1).	
+Level 7+ Troops only gain 50% Experience	0	1	3	-1	0	0	245	Level 7+ Troops only gain 50% Experience	Level 7+ troops only gain 50% of experience in battle instead of the normal 100%.	LEVEL 7+ CREATURES ONLY GAIN 50% EXPERIENCE
+
+Option 245 by Timothy Pulver (script00)
+
+Level 7+ troops only gain 50% of experience in battle instead of the normal 100%. This option helps to balance them against lower level troops.
+
+If stack experience is disabled, this option has no effect.	
+Hero Specialization Boost              	39	2	0	-1	0	0	39	Hero Specialization Boost	Applies a bonus in combat based on the hero's starting specialty.	HERO SPECIALIZATION BOOST
+
+Option 039 by Alexis Koz (script39)
+
+Applies a bonus based on the hero's starting specialty. Bonuses include better stats for their creatures for creature specialists and randomly cast spells for spell specialists. Does not work in multiplayer games except Hotseat.
+
+To see a Hero's enhanced bonus, right-click on the specialty icon in the hero screen or right-click on the top part of the hero in the combat screen (works for both players).
+
+Note: this option is disabled for network battles.	
+Rebalanced Hero Abilities                   	37	2	0	-1	0	0	198	Rebalanced Hero Abilities	Various hero tweaks and balances.	REBALANCED FACTIONS - HEROES
+
+Option 198 by Steven Lynch (script37)
+
+For details on what Rebalanced Hero Abilities apply to the current hero, right-click on the hero portrait in the hero screen.
+
+Various hero tweaks/balances, including
+(SS = secondary skill):
+- Estates is replaced by higher Estates or a different SS.
+- Navigation heroes get Exp. Nav. + blessing bonuses.
+- Heroes with Diplomacy have Leadership instead.
+- Gem starts with Bless instead of Summon Boat.
+- Weaker heroes have blessing bonuses, spells and/or advanced SSs.
+- Creature specialty heroes give a fixed bonus.
+- War machine specialists and Artillery heroes always start with their war machine.
+- Heroes who met Vori elves have an elemental SS + bonus spells.
+- Only heroes with a Logistics specialty start with Logistics.
+- Logistics specialists start with less primary skills. 
+- Heroes that had Logistics are given an extra SS level.
+- L4 spell heroes have fewer primary points and/or less powerful SSs.
+- Jeddite has Blind instead of Resurrection.
+- Mirlanda has skills/spells that suit her biography.
+- Some heroes have a new upgrade special instead.
+
+Some balance changes don't occur if certain other scripts are active (Hero Specialization Boost, Estates/Eagle Eye/Resistance scripts, Enhanced Monsters etc.) because they deal with similar aspects.  This is version 1.3 of Rebalanced Factions with hint text incorporated into the hero screen.	
+Rebalanced Starting Armies	37	2	0	-1	0	0	199	Rebalanced Starting Armies	Various starting army tweaks and balances.	REBALANCED FACTIONS - STARTING ARMIES
+
+Option 199 by Steven Lynch (script37)
+
+Various starting army tweaks and balances. The aim is for a good starting army for each hero while avoiding numbers that would give certain heroes an overwhelming head-start in the early weeks of a map. Some heroes have individualised starting armies based on their biographies (as well as balance considerations) so starting armies are a bit more varied. =)	
+Choose Commander Class	25	2	0	3	0	0	186	Choose Commander Class	When you hire a Commander, you can choose any Commander type regardless of the hero's class.	CHOOSE COMMANDER CLASS
+
+Option 186 by Timothy Pulver (script25)
+
+When you hire a Commander, you can choose any Commander type regardless of the hero's class.
+
+If Heroes start with Commanders and you wish to choose a different type, you must first dismiss the Hero's starting Commander and then hire a new one.	
+Enhanced Commanders	51	2	0	4	0	0	51	Enhanced Commanders	Enhances Commanders with starting abilities, spell boosts, rebalanced statistics.	ENHANCED COMMANDERS
+
+Option 051 by Arstahd (script51)
+
+*Warning: skill and ability descriptions in commander screen will be inaccurate, please ignore them*
+
+Commander statistics are calculated to new formulae.
+Stat numbers in commander screen are inaccurate upon level up. Reopen commander screen to display correct values.
+
+Attack = base 5 + 1/2 x level
+skill adds +25%,+50%,+75%,+100%,+125%
+
+Defense = base 5 + 1/2 x level
+skill adds +25%,+50%,+75%,+100%,+125%
+
+Hit Points = base 40 + 20 x level
+skill adds +25%,+50%,+75%,+100%,+125%
+
+Damage = base 10 + 5 x level
+skill adds +25%,+50%,+75%,+100%,+125%
+
+Magic Power = base 3 + 3 x skill level
+(Soul Eater/Astral Spirit = base 1 + 1 x skill level)
+
+Magic Resistance = base 0 + 10 x skill level
+
+Speed = base 0 + 1 x skill level
+
+Two special abilities have been replaced:
+Death Stare - Replaced with 50% chance to Poison.
+Fire Shield - Replaced with expert Magic Mirror.
+
+Commanders each start with a special ability.
+
+Commander spells improved. (some cast an additional spell)
+
+Commanders (except Astral Spirit) can now be resurrected.
+
+Commander Stones now give skills/special abilities.
+
+Note: Enhancements are disabled for network battles.	
+Enhanced Protection from the Elements	61	2	0	-1	0	0	61	Enhanced Protection from the Elements	The "Protection from..." spells now protect from non-damage spells too.	ENHANCED PROTECTION FROM THE ELEMENTS
+
+Option 061 by Petyo Georgiev (script61)
+
+The Protection from Fire, Protection from Air, Protection from Water and Protection from Earth spells give protection against non-damage spells (like Slow, Curse, etc.). The chance of resisting such a spell depends on your proficiency at the element your troops are protected from (i.e., your Air, Earth, Fire or Water Magic skill level)
+
+* None - 20%
+* Basic - 33%
+* Advanced or Expert - 50%
+
+Note 1: The protection works for non-group spells only.
+Note 2: This option is disabled for network battles.	
+Enhanced War Machines I   (Robert's)	54	2	0	6	0	0	54	Enhanced War Machines I	War Machines abilities are upgraded to make them more useful.	ENHANCED WAR MACHINES I
+
+Option 054 by Overlord (script54)
+
+* Level based (upgrade in town). Restricted to hero level (maximum)
+* catapult shoots 2-8 fireballs per combat
+* ballista, first aid tent, ammo cart increase hit points/level
+* ballista decreases target's speed (1-3 based on skill level)
+* ballista increases damage / level
+* first aid tent increase healing points and resurrection ability
+* ammo cart gives spell points/combat turn (level dependent)
+* trade between heroes disabled
+* magic book info
+* enable/disable any of your war machines (4) in combat 
+  (you can choose to have them in combat or not)	
+Enhanced War Machines II  (Arstahd's)	55	2	0	7	0	0	55	Enhanced War Machines II	Enhances War Machines with additional abilities and adjusted statistics.	ENHANCED WAR MACHINES II
+
+Option 055 by Arstahd (script55)
+
+Ballista now deals double base damage
+First Aid Tent now resurrects troops after healing
+Limits additional Ballistas/First Aid Tents to two
+Ammo Cart gives +10 movement points per step
+All war machines cost 1000 gold
+First Aid Tent has 150 health
+Ammo Cart has 150 health
+Catapult has 300 health
+
+Heroes with Ballistics skill can:
+* target creatures with catapults during normal combat
+* field a number of catapults equal to their skill level
+* have catapults inflict a death stare-like "critical hit"
+* (chance = .5% x catapults + hero level -- maximum 50%)
+
+Note: this option is disabled for network battles.	
+Enhanced War Machines III (Bonizag's)	73	2	0	8	0	0	73	Enhanced War Machines III	Every hero can carry more than one war machine. War machines have improved effects.	ENHANCED WAR MACHINES III
+
+Option 073 by Bonizag (script73)
+
+Every hero can carry more than one war machine. War machines can be obtained from towns and war machine factories. With the first aid tent the player can resurrect creatures if their stack on the battlefield is not completely killed. The ammo cart increases the damage of your shooting creatures. Catapults can shoot enemy units in combat (except siege combat).	
+Henchmen	49	2	0	-1	0	0	49	Henchmen	Allows a Henchman to fight with your army.	HENCHMEN
+
+Option 049 by Arstahd (script49)
+
+Adds a Henchman to your army that gains experience and improves with battle. Higher level creatures improve more slowly.
+
+Click on the player-color flag in the upper right corner of the hero screen to select one of your creatures to be your new Henchman.
+
+Slain Henchmen can be resurrected at a town for a fee.
+
+Note: Henchmen will not appear in network battles.	
+Summon Elementals	74	2	0	-1	0	0	74	Summon Elementals	Heroes can summon elementals permanently (when not in combat).	SUMMON ELEMENTALS
+
+Option 074 by Bonizag (script74)
+
+Heroes can summon elementals permanently for their army (when not in combat) if the hero knows the corresponding spell and has enough spell points to cast the spell. The spell points required for spell casting is ten times more than it would be on the battlefield, but the number of elementals remains the same. Summoning is allowed only once per day.
+
+To summon elementals permanently in the adventure screen, select the hero and right-click on the Spell Book icon.	
+Rebalanced Creatures           	37	2	2	-1	0	0	37	Rebalanced Creatures	Various creature tweaks and balances.	REBALANCED FACTIONS - CREATURES
+
+Option 037 by Steven Lynch (script37)
+
+(Note: some changes don't occur when the Enhanced Monsters script is active.)
+
+Various creature tweaks and balances, including:
+- Being able to upgrade Halflings to Master Gremlins (and vice versa) at Hill Forts when Neutral Town is inactive.
+- When Neutral Town is inactive: Halfling Defense +2/Shots -10/Speed +1/Max. Damage -1 (to be roughly similar to Master Gremlins, though Halflings keep their luck bonus).
+
+- Imp and Familiar Basic Growth +5.
+- Gog Defense +1/Health +1/Cost +10 Gold.
+- Magog Health +2/Max. Damage +1.
+- Hell Hound and Cerberus Basic Growth +1.
+- Horned Demon Health +5/Max. Damage +1/Cost +20 Gold.
+- Pit Lord Cost -25 Gold.
+- Efreet Sultan Defense +1/Health +10.
+- Arch Devil Cost -600 Gold.
+
+- Lizard Warrior Double Shot/Attack -1/Defense -2/Max. Damage -2 (decreased stats because Lizard Warrior now gets two shots).
+- Wyvern Monarch Attack +2/Defense +1/Health + 20 on Day 15 and 22/Wyvern Monarch Cost + 25 Gold on Day 15 and 22.
+
+- When the Reduce Conflux Firebird/Phoenix Growth and Enhanced Monsters scripts are *not* active, Phoenix Health will be reduced by 50. 
+
+These changes are aimed at making the playing field more even for the different factions. It also allows switching of Master Gremlins/Halflings (when Neutral Town is inactive) and Crystal/Faerie/Rust Dragons (when both Rampart Faerie Dragon and Neutral Town are inactive) at Hill Forts for no cost.	
+Rampart Faerie Dragon	64	2	2	-1	0	0	188	Rampart Faerie Dragon	Rampart exchanges its level 7 dragons for Faerie and Diamond Dragons (with reduced growth).	RAMPART FAERIE DRAGON
+
+Option 188 by Tobyn (script64)
+
+All Ramparts exchange their lvl 7 dragons for
+1 Faerie Dragon per week (instead of 2 Green Dragons)
+1 Diamond Dragon per week (instead of 2 Gold Dragons)	
+Reduced Conflux Firebird/Phoenix Growth	64	2	2	-1	0	0	189	Reduce Conflux Firebird/Phoenix Growth	Conflux slightly reduces Firebird/Phoenix growth. Note: standard growth is still displayed in the town screen.	REDUCE CONFLUX FIREBIRD/PHOENIX GROWTH
+
+Option 189 by Tobyn (script64)
+
+If Castle and Pyre built, Conflux only produces
+3 Firebirds/Phoenix per week (instead of 4).
+
+Note 1: The bottom-left picture in the town screen will still indicate standard growth, as will the castle screen.
+
+Note 2: If Enhanced Monsters is also active, this option will reduce Firebird/Phoenix Growth to only one per week.	
+Berserker Flies	46	2	2	-1	0	0	46	Berserker Flies	Dragon Flies gain the ability to attack without retaliation, cast Berserk on their target, and return after attacking.	BERSERKER FLIES
+
+Option 046 by Timothy Pulver (script46)
+
+Dragon Flies gain the ability to attack without retaliation, cast Berserk on their target (25% chance), and return after attacking.	
+Enhanced Monsters	50	2	2	-1	0	0	50	Enhanced Monsters	Enhances many monsters with additional abilities and adjusted statistics.	ENHANCED MONSTERS
+
+Option 050 by Arstahd (script50)
+
+Many monsters have statistics changed and rebalanced and new abilities added. Most modified stats have been boosted, although a few are lowered (Phoenix growth for example).
+
+New abilities and stat changes are noted in each creature's Special Abilities text box and are denoted in "yellow".
+
+Key to abbreviations:
+HP = health   AT = attack   DE = defense   DL = damage low 
+ DH = damage high   SP = speed   SH = shots   L = level 
+"+" indicates that the stat is raised, "-" that it is lowered
+
+Many creatures are given latent spell defenses.
+
+Many creatures are given special attacks.
+(usually with no retaliation)
+
+Most neutral creatures are given strong boosts. Some neutral creatures are aligned with towns.
+
+Note: Some enhancements (such as automatic spell casting) are disabled for network battles.	
+Metamorphs	56	2	2	-1	0	0	56	Metamorphs	When enabled, Earth Messengers are Metamorphs. Metamorphs randomly transform themselves in combat into other monster types.	METAMORPHS
+
+Option 056 by Timothy Pulver (script56)
+
+When enabled, Earth Messengers become Metamorphs. Metamorphs randomly transform themselves in combat into other monster types just prior to their first action. The new type is random but the Metamorph stack's total health will not exceed the total health of the creature they turn into.
+
+A Metamorph stack will also transform when it kills an enemy stack on its turn (but not if it kills the enemy stack with a retaliation attack). After combat, the remaining Metamorphs will change back into their normal Metamorph state.
+
+You may use your Metamorph's action to make an optional transformation instead of attacking: right-click on the Wait button to do this.
+
+If Stack Experience is enabled, higher rank Metamorphs have a minimum level of creature they'll transform into (if possible):
+
+      Rank 0-3 = no minumum
+      Rank 4-5 = minimum level 2
+      Rank 6-7 = minimum level 3
+      Rank 8-9 = minimum level 4
+      Rank 10+ = minimum level 5
+
+Note: this option is disabled for network battles.	
+Piercing Shot	59	2	2	-1	0	0	59	Piercing Shot	Changes the Marksmen's special ability and stats and adds a bonus to Archers.	PIERCING SHOT
+
+Option 059 by Petyo Georgiev (script59)
+
+This option changes the special ability of the Marksmen from "shooting twice" to "piercing shot". This shot does half damage to an enemy stack behind the targeted stack. In addition, Marksmen gain +1 attack, +1 defense, reduce their target's defense by 3+20%, and do 2-5 damage, however their shots is reduced to 12. An Air Shield spell on the primary target neutralizes the piercing bolt.
+
+Also, the name of Archers is changed to Crossbowmen and their ranged attack reduces the target's Defense by 10% (minimum reduction of 1).
+
+Note: this option is disabled for network battles.	
+Enhanced Secondary Skills - Armorer	48	2	1	-1	1	1	214	Armorer	Enhances Armorer Secondary Skill.	ARMORER
+
+Option 214 by Arstahd (script48)
+
+Reduces the physical damage inflicted on a hero's troops.
+
+Basic:  -10%
+
+Advanced:  -15%
+
+Expert:  -20%
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - Artillery	48	2	1	-1	1	1	201	Artillery	Enhances Artillery Secondary Skill.	ARTILLERY
+
+Option 201 by Arstahd (script48)
+(based on work by Donald X. Vaccarino)
+
+Ballista does (1-50 + hero level) damage to an enemy stack prior to a battle (attacker or defender). Will not wipe out a stack. Gives Experience.
+
+Ammo Cart adds 100% damage (more shots).
+
+Artillery skill increases the effect of the Ballista.
+
+Basic: adds 100% damage
+
+Advanced: adds 200% damage
+
+Expert: adds 300% damage
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Eagle Eye I         	3	2	1	-1	1	1	103	Eagle Eye I	Lets heroes automatically learn new spells each level.	EAGLE EYE I
+
+Option 103 by Donald X. Vaccarino (script03)
+
+Lets heroes automatically learn new spells each level.
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - Eagle Eye II	48	2	1	-1	1	1	202	Eagle Eye II	Enhances Eagle Eye Secondary Skill.	EAGLE EYE II
+
+Option 202 by Arstahd (script48)
+
+Eagle Eye grants the ability to counter a beneficial spell cast by the enemy. 
+
+Drains 8 spell points from caster (7 with water magic skill). 
+
+Basic:  10% chance
+Advanced:  20% chance
+Expert:  30% chance
+
+Bird of Perception, Stoic Watchman, and Emblem of Cognizance increase the chance. 
+
+Eagle Eye artifacts now form a combination artifact that further increases the chance to counter a spell by 30%.	
+Enhanced Secondary Skills - Estates I	48	2	1	-1	1	1	203	Estates I	Enhances Estates Secondary Skill.	ESTATES I
+
+Option 203 by Arstahd (script48)
+
+For each level of estates, the hero will generate:
+1-3 units of a resource every week, doubled for wood or ore.
+5 x hero level gold per day.
+
+The resource types will be randomly set when the skill is learned.
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Estates Enhanced II	64	2	1	-1	0	0	191	Estates II	More experienced heroes yield more gold and additional resources.	ESTATES II
+
+Option 191 by Tobyn (script64)
+
+Gives further 25/50/100 Gold per 10,000 experience each
+day and gives out additional resources depending on skill
+expertise and hero level. Lvl 10+ hero with Expert Estates
+might even choose resource type. Click on skill description
+*and* on skill icon in hero screen to get further details.
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - First Aid I	48	2	1	-1	1	1	204	First Aid I	Enhances First Aid Secondary Skill.	FIRST AID I
+
+Option 204 by Arstahd (script48)
+(based on work by Donald X. Vaccarino)
+
+First Aid Tent resurrects (1-50 + hero level) HP's of dead troops for the winner of a battle (attacker or defender).
+
+Ammo Cart adds 100% HP's (medical supplies).
+
+First Aid skill increases the effect of the First Aid Tent.
+
+Basic: adds 100% HP's
+
+Advanced: adds 200% HP's
+
+Expert: adds 300% HP's
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+First Aid Enhanced II	64	2	1	-1	0	0	190	First Aid II	Gives additional First Aid Tents. Tents will apply Cure spell.	FIRST AID II
+
+Option 190 by Tobyn (script64)
+
+The First Aid skill summons and gives control over additional First Aid Tents (# of tents = hero level). It also casts an automatic Cure spell each healing, based on First Aid Expertise and number of Tents.
+
+First Aid Specialty temporarily gives hero knowledge of Cure, Animate Dead and Resurrection spells each battle.
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Learning I	3	2	1	-1	1	1	217	Learning I	Gives the hero a chance of gaining an extra primary skill point each level.	LEARNING I
+
+Option 217 by Donald X. Vaccarino (script03)
+
+Gives the hero a chance of gaining an extra primary skill point each level.
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - Learning II	48	2	1	-1	1	1	205	Learning II	Enhances Learning Secondary Skill.	LEARNING II
+
+Option 205 by Arstahd (script48)
+
+Hero gains experience every day.
+
+Basic: 100 experience
+
+   Advanced: 200 experience
+
+   Expert: 300 experience
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - Luck	48	2	1	-1	1	1	206	Luck	Enhances Luck Secondary Skill.	LUCK
+
+Option 206 by Arstahd (script48)
+
+Luck gives each stack in a hero's army a chance to get +2 Attack, +2 Defense and Fortune for a battle.
+
+Basic:  10% chance - up to 1 stack
+
+Advanced:  20% chance - up to 2 stacks
+
+Expert:  30% chance - up to 3 stacks
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Mysticism Enhancement I	35	2	3	-1	1	1	35	Mysticism I	Enhances the Mysticism skill so it'll generate more Spell Points and let the hero find out things normally hidden.	MYSTICISM I
+
+Option 035 by Anders Jonsson (script35)
+
+Enhances the Mysticism skill so it regenerates 10%, 20% or 30% of maximum spell points each day. It can also be used to find out what the next "Week of.." will be if the "Week of Monsters" script is active.
+
+Heroes with Advanced Mysticism can learn which spells a Mage guild will contain when fully built by right-clicking on it and heroes with Expert Mysticism can right-click on enemy heroes within their scouting radius to learn about the enemy hero's skills, artifacts, creatures and more.
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - Mysticism II	48	2	3	-1	0	0	207	Mysticism II	Enhances Mysticism Secondary Skill.	MYSTICISM II
+
+Option 207 by Arstahd (script48)
+
+Mysticism makes it more difficult for an enemy to cast spells, effectively reducing the enemy's spell points for the battle.
+
+Basic: reduces enemy spell points to 80% of normal
+
+Advanced: reduces enemy spell points to 70% of normal
+
+Expert: reduces enemy spell points to 60% of normal
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - Navigation	48	2	3	-1	1	1	208	Navigation	Enhances Navigation Secondary Skill.	NAVIGATION
+
+Option 208 by Arstahd (script48)
+
+Navigation increases attack and defense during naval battles.
+
+Basic: +1
+
+Advanced: +2
+
+Expert: +3
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - Pathfinding	48	2	3	-1	1	1	209	Pathfinding	Enhances Pathfinding Secondary Skill.	PATHFINDING
+
+Option 209 by Arstahd (script48)
+
+Pathfinding raises the hero's minimum daily starting movement.
+
+Basic: equivalent to unit speed of 6
+
+Advanced: equivalent to unit speed of 7
+
+Expert: equivalent to unit speed of 8
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Resistance I	3	2	3	-1	0	0	216	Resistance I	Reduces 1-3 enemy stacks to non-upgraded form.	RESISTANCE I
+
+Option 216 by Donald X. Vaccarino (script03)
+
+Reduces 1-3 enemy stacks to non-upgraded form.
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - Resistance II	48	2	3	-1	1	1	210	Resistance II	Enhances Resistance Secondary Skill.	RESISTANCE II
+
+Option 210 by Arstahd (script48)
+
+Resistance endows a hero's troops with magic resistance.
+
+Basic:  +10%
+
+Advanced:  +20%
+
+Expert:  +30%
+
+Resistance artifacts now form a combo that grants an additional +30% magic resistance.
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - Scholar	48	2	3	-1	1	1	211	Scholar	Enhances Scholar Secondary Skill.	SCHOLAR
+
+Option 211 by Arstahd (script48)
+
+Each week a hero will attempt to research a new spell.
+
+Basic:  40% chance to learn up to a 2nd level spell
+
+Advanced:  50% chance to learn up to a 3rd level spell
+
+Expert:  60% chance to learn up to a 4th level spell
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Scouting I	3	2	3	-1	0	0	215	Scouting I	Gives heroes free rogues every day.	SCOUTING I
+
+Option 215 by Donald X. Vaccarino (script03)
+
+Gives heroes free rogues every day.
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - Scouting II	48	2	3	-1	1	1	212	Scouting II	Enhances Scouting Secondary Skill.	SCOUTING II
+
+Option 212 by Arstahd (script48)
+
+Scouting gives a hero a small chance for a random event for each step taken.
+
+Basic:  1% chance
+
+Advanced:  1.5% chance
+
+Expert:  2% chance
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Espionage - Scouting III	58	2	3	-1	1	1	58	Scouting III  (Espionage)	Lets heroes with the Scouting skill train spies.	SCOUTING III (ESPIONAGE)
+
+Option 058 by Petyo Georgiev (script58)
+
+This option gives heroes who know the scouting skill the ability to train spies. Spies can then infiltrate enemy towns where they can fulfill different operations (thefts, sabotage, assassinations, status report), or they can be sent to the owner's towns to protect them from enemy spies (higher chance of enemy spies being exposed). Assignments depend on the level of scouting. Each hero can have only one spy at a time. Computer players cannot use spies.
+
+To give commands to your operatives, right-click on the Scouting *icon* in the hero screen.
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Sorcery Enhancement I             	23	2	3	-1	0	0	23	Sorcery I	The Sorcery skill is enhanced with extra abilities.	SORCERY I
+
+Option 023 by Timothy Pulver (script23)
+
+Basic Sorcery lets a hero right-click on many nearby artifacts, treasures and other objects to discover their nature or value.
+
+Advanced Sorcery increases the value of resource piles and chests that the hero picks up.
+
+Expert Sorcery lets a hero visit objects from a distance to gain their benefits. These include: windmills, water wheels, mystical gardens, star axes, gardens of revelation and learning stones.
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Enhanced Secondary Skills - Sorcery II	48	2	3	-1	1	1	213	Sorcery II	Enhances Sorcery Secondary Skill.	SORCERY II
+
+Option 213 by Arstahd (script48)
+
+Sorcery increases the damage of hero's spells.
+
+Basic:  +10%
+
+Advanced:  +20%
+
+Expert:  +30%
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Tactics	3	2	3	-1	0	0	218	Tactics	Replaces the normal Tactics skill map deployment with bonuses to speed.	TACTICS
+
+Option 218 by Donald X. Vaccarino and Hermann the Weird (script03)
+
+Replaces the normal Tactics skill map deployment with bonuses to speed, depending on skill level.
+
+Basic:  +1 Speed
+Advanced:  +2 Speed
+Expert:  +3 Speed
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Warfare (Artillery/Ballistics/First Aid)	64	2	3	-1	0	0	193	Warfare  (Artillery/Ballistics/First Aid)	Merges Artillery, Ballistics and First Aid into "one skill".	WARFARE
+
+Option 193 by Tobyn (script64)
+
+Combines the three war machines skills
+Artillery, Ballistics and First Aid
+into a single "Warfare" skill. Gives hero
+control over all three war machines and
+standard SoD abilities from all three skills.
+Advancing one skill will advance the others.
+
+Also, First Aid Tents get 750 HPs (only if no 
+other First Aid enhancements active).
+
+[Careful: will become insanely powerful if you
+ simultaneously use other WoGify enhancements
+ for those skills.]
+
+TIP: enhanced skills have their name in yellow. Right-click on an enhanced skill for a complete description of all abilities.	
+Choose Map Rules each game but use defaults	1	4	0	0	1	1	101	Choose Map Rules each game but default to rules selected below	Each time you play, you'll be asked to choose the map rules to use for that game. The rules will default to the ones selected below.	CHOOSE MAP RULES EACH GAME FROM DEFAULTS
+
+Option 101-0 by Donald X. Vaccarino (script01)
+
+Each time you play, you'll be asked to choose the map rules to use for that game. The rules will default to the ones selected below.	
+Choose Map Rules each game        	1	4	0	1	0	0	101	Choose Map Rules each game	Each time you play, you'll be asked to choose the map rules to use for that game.	CHOOSE MAP RULES EACH GAME
+
+Option 101-1 by Donald X. Vaccarino (script01)
+
+Each time you play, you'll be asked to choose the map rules to use for that game.	
+Use Map Rules selected here        	1	4	0	2	0	0	101	Use Map Rules selected below	All of the map rules you select below will be used for every game you play.	USE MAP RULES SELECTED BELOW
+
+Option 101-2 by Timothy Pulver (script01)
+
+All of the map rules you select below will be used for every game you play.	
+Use two random Map Rules each game	1	4	0	3	0	0	101	Use two random Map Rules each game	Each time you play, two completely random map rules will be chosen.	USE TWO RANDOM MAP RULES EACH GAME
+
+Option 101-3 by Donald X. Vaccarino (script01)
+
+Each time you play, two completely random map rules will be chosen from the 20 possible rules.	
+Use 2 random selected Rules each game	1	4	0	4	0	0	101	Use two random Map Rules each game from those selected below	Each time you play, two random map rules from the ones you've selected below will be chosen.	USE TWO RANDOM RULES FROM THOSE SELECTED
+
+Option 101-4 by Timothy Pulver (script01)
+
+Each time you play, two random map rules from the ones you've selected below will be chosen.	
+Disable Map Rules                   	1	4	0	5	0	0	101	Disable all Map Rules	No Map Rules will be used in the maps you play.	DISABLE ALL MAP RULES
+
+Option 101-5 by Timothy Pulver (script01)
+
+No Map Rules will be used in the maps you play.	
+Display Chosen Map Rules at Map Start	1	4	1	-1	1	1	230	*Display chosen Map Rules at map start*	The Map Rules you've chosen will be displayed each time you start a new game.	DISPLAY CHOSEN MAP RULES AT MAP START
+
+Option 230 by Timothy Pulver (script01)
+
+The Map Rules you've chosen will be displayed each time you start a new game.	
+Fliers can't fly but gain no retal	1	4	1	-1	0	0	111	Fliers have no-retaliation instead of fly	No creatures can fly, and creatures that once flew cannot be retaliated against.	MAP RULE 1
+
+Option 111 by Donald X. Vaccarino (script01)
+
+No creatures can fly, and creatures that once flew cannot be retaliated against.	
+Monster speed is inverted         	1	4	1	-1	0	0	112	Monster speed is inverted	Creatures that are normally slow are fast, and the fast ones are now slow.	MAP RULE 2
+
+Option 112 by Donald X. Vaccarino (script01)
+
+Creatures that are normally slow are fast, and the fast ones are now slow.	
+Monsters are 1/2 price on day 7 	1	4	1	-1	0	0	113	Monsters are half price on 7th day of week	Creatures cost half as much on the 7th day of the week.	MAP RULE 3
+
+Option 113 by Donald X. Vaccarino (script01)
+
+Creatures cost half as much on the 7th day of the week.	
+Heroes create magic plains each day	1	4	1	-1	0	0	114	Heroes create magic plains each day	The presence of a hero at the start of the day warps the land with magic.	MAP RULE 4
+
+Option 114 by Donald X. Vaccarino (script01)
+
+The presence of a hero at the start of the day warps the land with magic.	
+All monsters attack twice           	1	4	1	-1	0	0	115	All monsters attack twice	All creatures attack twice (like crusaders and wolf raiders).	MAP RULE 5
+
+Option 115 by Donald X. Vaccarino (script01)
+
+All creatures attack twice.	
+Hero's troops grow 4% each day      	1	4	1	-1	0	0	116	Monster stacks in hero armies grow 4% each day	Creatures in a hero's army attract an additional 4% of their own kind each day, to a maximum of 10000 creatures.	MAP RULE 6
+
+Option 116 by Donald X. Vaccarino (script01)
+
+Creatures in a hero's army attract an additional 4% of their own kind each day, to a maximum of 10000 creatures.	
+Most dwellings also have boars     	1	4	1	-1	0	0	117	Most dwellings also have boars	Most dwellings also produce Boars.	MAP RULE 7
+
+Option 117 by Donald X. Vaccarino (script01)
+
+Most dwellings also produce Boars. These dwellings will produce Air Elementals instead of Boars if the Conflux Neutral Town is active.	
+Heroes start at 5th level       	1	4	1	-1	0	0	118	Heroes start at 5th level (+5000 experience)	Heroes start at 5th level (+5000 experience).	MAP RULE 8
+
+Option 118 by Donald X. Vaccarino (script01)
+
+Heroes start at 5th level (+5000 experience).	
+Heroes pick up double artifacts 	1	4	1	-1	0	0	119	Heroes pick up double artifacts	Heroes pick up double artifacts. This only applies to artifacts that can be seen on the adventure map.	MAP RULE 9
+
+Option 119 by Donald X. Vaccarino (script01)
+
+Heroes pick up double artifacts. This only applies to enabled artifacts that can be seen on the adventure map and that aren't the object of Seer's Hut quests.
+
+Warning: If you use this Map Rule as well as enabling the option to leave artifacts by right-clicking, it's possible to create unlimited copies of almost any artifact, therefore we strongly advise against combining these two options.	
+Perpetual darkness                  	1	4	1	-1	0	0	120	Perpetual darkness covers the map	The map is covered by perpetual darkness. A hero can still see within his or her scouting radius and flagged objects still reveal an area around them.	MAP RULE 10
+
+Option 120 by Donald X. Vaccarino (script01)
+
+The map is covered by perpetual darkness that closes in after a hero passes. Flagged objects permanently reveal an area around them, however.
+
+The AI is unaffected by the darkness and can see normally.	
+Heroes have double movement       	1	4	3	-1	0	0	121	Heroes have double movement	Heroes have double their normal movement each turn.	MAP RULE 11
+
+Option 121 by Donald X. Vaccarino (script01)
+
+Heroes have double their normal movement each turn.	
+Mines change resources once/week	1	4	3	-1	0	0	122	Mines change resources once per week	Mines change resources once per week.	MAP RULE 12
+
+Option 122 by Donald X. Vaccarino (script01)
+
+Mines change resources once per week. If the Mithril script is active, you can use some Mithril to temporarily protect a mine from this weekly change.	
++1 places can be revisited each month	1	4	3	-1	0	0	123	Single visit bonus sites reset each month	Single visit bonus sites can be revisited each month.	MAP RULE 13
+
+Option 123 by Donald X. Vaccarino (script01)
+
+Single visit bonus sites can be revisited each month.
+
+The following bonus sites will be reset each month: learning stones, marletto towers, gardens of revelation, mercenary camps, star axes, trees of knowledge, libraries of enlightenment, arenas, schools of magic, and schools of war.	
+Heroes get 9th-10th skills           	1	4	3	-1	1	1	124	Heroes get 9th-10th skills	Heroes may learn 2 secret skills in addition to the 8 normal ones.	MAP RULE 14
+
+Option 124 by Donald X. Vaccarino (script01)
+
+Heroes may learn two secret skills in addition to the eight normal ones.
+
+If the Display Hidden Skills option is enabled, you can see these hidden skills by left-clicking on the Experience icon in the hero screen.	
+Upgraded lvl 7 monsters become lvl 8	1	4	3	-1	0	0	125	Hero's upgraded level 7 monsters become level 8	Upgraded 7th level creatures in a hero's army automatically upgrade to 8th level.	MAP RULE 15
+
+Option 125 by Donald X. Vaccarino (script01)
+
+Upgraded 7th level creatures in a hero's army automatically upgrade to 8th level.	
+Heroes gain an artifact each level	1	4	3	-1	0	0	126	Heroes gain an artifact each level	Heroes gain an artifact each time they gain a level.	MAP RULE 16
+
+Option 126 by Donald X. Vaccarino (script01)
+
+Heroes gain an artifact each time they gain a level.	
+Rogues attack heroes at random     	1	4	3	-1	0	0	127	Rogues attack heroes at random	Bands of Rogues roam the countryside, ready to ambush heroes.	MAP RULE 17
+
+Option 127 by Donald X. Vaccarino (script01)
+
+Bands of Rogues roam the countryside, ready to ambush unwary heroes.	
+All creatures have a breath weapon	1	4	3	-1	0	0	128	All creatures have a breath weapon	All creatures attack as with a breath weapon (when not shooting).	MAP RULE 18
+
+Option 128 by Donald X. Vaccarino (script01)
+
+All creatures attack as with a breath weapon (when not shooting). This means that a creature's melee attack will also affect any creature directly behind the attacked creature.	
+Shooters can't shoot but have +50% HP	1	4	3	-1	0	0	129	Shooters can't shoot but gain +50% health	No creatures shoot, and creatures that once shot have +50% hit points.	MAP RULE 19
+
+Option 129 by Donald X. Vaccarino (script01)
+
+No creatures shoot, and creatures that once shot have +50% hit points.	
+All towns have a grail             	1	4	3	-1	0	0	130	All towns have a grail (if no confluxes on map)	All towns have a grail structure built in them (only used if no confluxes are on the map).	MAP RULE 20
+
+Option 130 by Donald X. Vaccarino (script01)
+
+All towns have a grail structure built in them (only used if no confluxes are on the map).	
+Warlords Banners appear outside towns	1	4	3	-1	0	0	239	Towns have Warlord's Banners in front of them	All towns have a Warlord's Banner in front of them. Banners in front of neutral towns are guarded.	MAP RULE 21
+
+Option 239 by Timothy Pulver (script01)
+
+All towns have a Warlord's Banner in front of them, including starting towns. Banners in front of neutral towns are guarded, and Banners in front of owned towns will acquire guards after a few weeks if the Banner isn't picked up before then.
+
+Guards depend on difficulty level:
+Easy = 1 Upgraded Level 6 plus 1 per month.
+Normal = 1 Non-upgraded Level 7 plus 1 per month.
+Hard = 1 Upgraded Level 7 plus 1 every 2 weeks.
+Expert = 1 Level 8 plus 1 per month.
+Impossible = 1 Level 8 plus 1 every two weeks.
+
+Note: Choosing this map rule supercedes the "Ban Warlord's Banner" option on the Artifact and Spell Banning page, allowing you to have Banners appearing outside towns but nowhere else in the game if you wish. However, if Stack Experience is disabled, Warlords Banners will not be placed.	
+Replace Objects During WoGification	0	3	1	-1	1	1	195	*Replace Objects During WoGification*	Existing map objects may be replaced with new WoG objects and scripted objects selected on this page.	REPLACE OBJECTS DURING WOGIFICATION
+
+Option 195 by Donald X. Vaccarino and Timothy Pulver (script00)
+
+If this option is selected, existing adventure objects on the map may be replaced with new WoG objects and scripted objects selected on this page.
+
+If this option ISN'T selected, the scripts will be active for all adventure objects selected but no replacement of existing objects will take place.
+
+If you want more of a particular WoG object to show up, try disabling some or all other objects that replace the same standard Heroes object. Right-click on each option to see which objects might be replaced.
+
+Note: this also applies to new Treasure Chests, Spell Books, Taverns, Freelancer's Guilds and Sanctuaries.	
+Adventure Cave                       	30	3	1	-1	1	1	30	Adventure Cave	There are several types of Adventure Cave and several possible encounters within each. Encounters include rogues, hermits, monsters and more.	ADVENTURE CAVE
+
+Option 030 by Donald X. Vaccarino (script30)
+
+There are several types of Adventure Cave and several possible encounters within each. Encounters include rogues, hermits, monsters and more.
+
+Adventure Cave combats are made more interesting with custom battlefields and setups. Some hermits will teach heroes new unique abilities after several lessons, and Rogues can sometimes be negotiated with. These are just a few of the exciting things you'll find in the mysterious Adventure Caves.
+
+[If object replacement is selected, Adventure Caves may replace some of the following: Dwarven Treasuries, Mystical Gardens, Crypts]	
+Alms House                         	18	3	1	-1	1	1	18	Alms House	Alms Houses help the poor and unfortunate with small gifts of gold or resources, and possibly also skill points or experience for heroes who are just starting out.	ALMS HOUSE
+
+Option 018 by Donald X. Vaccarino (script18)
+
+Alms Houses help the poor and unfortunate with small gifts of gold or resources, and possibly also skill points or experience for heroes who are just starting out.
+
+[If object replacement is selected, Alms Houses may replace some of the following: Level 1 Magic Shrines, Learning Stones, Witch Huts, Windmills]	
+Altar of Transformation            	14	3	1	-1	1	1	14	Altar of Transformation	The Altar of Transformation will transform all troops in a hero's army into different troops of the same level and town type.	ALTAR OF TRANSFORMATION
+
+by Timothy Pulver (script14)
+
+Once per week, the Altar of Transformation will transform all troops in a hero's army into different troops of the same level. The hero may spend spell points to try and force the transformation to a particular town type. If this doesn't result in a 100% chance, some troops may transform to another random town type instead.
+
+Commanders, emissaries and the powerful neutral dragons are immune to the altar's transformation effect.
+
+[If object replacement is selected, Altars of Transformation may replace some of the following: Medusa Stores, Cyclops Stockpiles, Naga Banks, Temples, War Machine Factories, Faerie Rings, Swan Ponds]	
+Arcane Tower                         	4	3	1	-1	1	1	104	Arcane Tower	Arcane Towers allow a hero to redistribute his or her primary skill points.	ARCANE TOWER
+
+Option 104 by Donald X. Vaccarino (script04)
+
+Arcane Towers allow a hero to redistribute his or her primary skill points.
+
+[If object replacement is selected, Arcane Towers may replace some of the following: Level 1 Magic Shrines, Learning Stones, Witch Huts, Windmills]	
+Artificer                            	26	3	1	-1	1	1	26	Artificer	The Artificer is a special blacksmith who is able to upgrade or change many of your artifacts.	ARTIFICER
+
+Option 026 by Andrei Adutskevich (script26)
+(based on work by Dieter Averbeck)
+
+The Artificer is a special blacksmith who is able to upgrade or change many of your artifacts. Upgrading an Artifact takes 100 movement points and the Artificer is only able to upgrade or change two Artifacts each day, but the second will be double the price. The Artificer has an option which describes his services more in detail.
+
+Note: If the hero has both Diplomacy and Estates skills or if the hero equips Diplomacy-boosting artifacts, he will be charged a lower gold price.
+
+[If object replacement is selected, Artificers may replace some of the following: Dwarven Treasuries, Mystical Gardens, Crypts]	
+Battle Academy                    	16	3	1	-1	1	1	16	Battle Academy	This object sells Attack or Defense skill points, combat oriented secondary skills or artifacts to heroes.	BATTLE ACADEMY
+
+Option 016 by Anders Jonsson (script16)
+
+This object sells Attack or Defense skill points, combat oriented secondary skills or artifacts to heroes.
+
+[If object replacement is selected, Battle Academies may replace some of the following: Dragon Utopias]	
+Death Chamber	70	3	1	-1	1	1	70	Death Chamber	Death Chambers are a new type of creature bank where you must fight the Undead King and his minions.	DEATH CHAMBER
+
+Option 070 by Rich Reed (script70)
+
+Death Chambers are a new type of creature bank where you must fight the Undead King and his minions.
+
+[If object replacement is selected, Death Chambers may replace some of the following: Level 1 Magic Shrines, Learning Stones, Witch Huts, Windmills]	
+Emerald Tower	44	3	1	-1	1	1	44	Emerald Tower	In the Emerald Towers dwell ancient and powerful Wizards who can enchant a whole species of creatures to make them better...for a price.	EMERALD TOWER
+
+Option 044 by Timothy Pulver (script44)
+
+In the Emerald Towers dwell ancient and powerful Wizards who can enchant a whole species of creatures to make them better...for a price.
+
+The wizards hate to be bothered, however, and you won't even get an appointment without paying for it with several sparkling gemstones. Each Emerald Tower may be visited only once per week.
+
+[If object replacement is selected, Emerald Towers may replace some of the following: Imp Caches, Griffin Conservatories, Rally Flags, Marletto Towers]	
+Forgotten Shrine	60	3	1	-1	1	1	60	Forgotten Shrine	When visited, a beneficial spell is applied to all friendly troops for the next battle.	FORGOTTEN SHRINE
+
+Option 060 by Petyo Georgiev (script60)
+
+When praying at the altar in the Forgotten Shrine, the hero's troops receive a random beneficial spell applied to all friendly stacks at expert level for 50 turns in the next battle (even non-group spells are applied to all). The hero's movement points are reduced to 0 after a visit. Every hero can have only one blessing at a time.
+
+[If object replacement is selected, Forgotten Shrines may replace some of the following: Shrines of Magic Gesture, Shrines of Magic Thought and Idols of Fortune]	
+Junk Merchant                        	8	3	1	-1	1	1	108	Junk Merchant	The Junk Merchant will offer to trade gold or sometimes other things for many artifacts in the game (mostly weak ones).	JUNK MERCHANT
+
+Option 108 by Donald X. Vaccarino (script08)
+
+The Junk Merchant offers trades for 32 artifacts, mostly weak ones, plus scrolls. He doesn't want most of the artifacts that have abilities from the Artifact Boosts script. He only buys unequipped artifacts, and only one copy of each artifact per visit. He usually pays in gold, but sometimes offers to trade special things instead.
+
+The AI accepts all trades except ones that give it creatures.
+
+[If object replacement is selected, Junk Merchants may replace some of the following: Dwarven Treasuries, Mystical Gardens, Crypts]	
+Level 8 Dwellings                     	0	3	1	-1	1	1	137	Level 8 Dwellings	Level 8 creature dwellings may replace some other objects on the map.	LEVEL 8 DWELLINGS
+
+Option 137 object replacement by Donald X. Vaccarino (script00)
+
+Level 8 creature dwellings may replace some other objects on the map.
+
+[If object replacement is selected, Hell Hydra, Diamond Dragon and Blood Dragon Dwellings may replace some of the following: Medusa Stores, Cyclops Stockpiles, Naga Banks, Temples, War Machine Factories, Faerie Rings, Swan Ponds]
+
+[If object replacement is selected, Sacred Phoenix, Ghost Behemoth, Antichrist, Lord of Thunder, Darkness Dragon and Supreme Archangel dwellings may replace some of the following: Imp Caches, Griffin Conservatories, Rally Flags, Marletto Towers]
+
+[If object replacement is selected, Azure Dragon dwellings may replace some of the following: Lean To's]
+
+[If object replacement is selected, Crystal Dragon dwellings may replace some of the following: Refugee Camps, Dens of Thieves]	
+Living Skull                    	12	3	3	-1	1	1	12	Living Skull	The Living Skull can tell you where to find a specific artifact for a small price.	LIVING SKULL
+
+Option 012 by Timothy Pulver (script12)
+
+The Living Skull can tell you where to find a specific artifact for a small price. The first hero to visit each week will be shown the location of a random artifact for free. The Skull will not search for Warlord's Banners.
+
+For 100 gold, the player will be informed if an unclaimed artifact of the type specified exists on the map, as well as the map level and general direction it can be found in.
+
+For a few precious resources, the exact location will be revealed (e.g. 10 paces south and 16 paces east).
+
+For 1000 gold more, the artifact will be revealed and the shroud covering it will be removed.
+
+For several Mithril (more powerful artifacts cost more), the Living Skull will bring the artifact right to the hero but will not bring artifacts that have guards attached.
+
+Note: If the "Heroes pick up double artifacts" map rule is enabled, you will get two artifacts from the skull instead of one.
+
+[If object replacement is selected, Living Skulls may replace some of the following: Level 1 Magic Shrines, Learning Stones, Witch Huts, Windmills]	
+Magic Mushrooms                    	10	3	3	-1	1	1	110	Magic Mushrooms	Magic Air, Water, Fire and Earth Mushrooms temporarily grant a hero expert magic skill in the corresponding element.	MAGIC MUSHROOMS
+
+Option 110 by Bruno (script10)
+
+Magic Air, Water, Fire and Earth Mushrooms temporarily grant a hero expert magic skill in the corresponding element. After one week, the elemental magic skill returns to the hero's previous skill level.
+
+[If object replacement is selected, Air, Water, Fire and Earth Mushrooms may replace some of the following: Level 1 Magic Shrines, Learning Stones, Witch Huts, Windmills]	
+Market of Time                        	9	3	3	-1	1	1	109	Market of Time	The Market of Time lets a hero forget any skill already learned at a cost of 2000 gold to make room for learning a new skill instead.	MARKET OF TIME
+
+Option 109 by Timothy Pulver (script09)
+
+The Market of Time lets a hero forget any skill already learned (at a cost of only 2000 gold) to make room for learning a new skill instead.
+
+A hero can only forget one skill each day.
+
+[If object replacement is selected, Markets of Times may replace some of the following: Imp Caches, Griffin Conservatories, Rally Flags, Marletto Towers]	
+Mirror of the Home-Way	52	3	3	-1	1	1	52	Mirror of the Home-Way	This building works as a 'Town Portal' spell for 1000 coins.	MIRROR OF THE HOME-WAY
+
+Option 052 by Sir Four (script52)
+
+This building works as a 'Town Portal' spell for 1000 coins.
+
+[If object replacement is selected, Mirrors of the Home-Way may replace some of the following: Schools of War]	
+Mysterious Creature Dwelling         	15	3	3	-1	1	1	15	Mysterious Creature Dwelling	A hero can recruit seven different stacks of creatures at the Mysterious Creature Dwelling, once per game.	MYSTERIOUS CREATURE DWELLING
+
+Option 015 by Dieter Averbeck (script15)
+
+In Mysterious Creature Dwellings (MCDs), heroes may recruit seven different stacks of creatures (only one visit per hero). The offered creatures are calculated randomly and based on the hero's class and the current date in the game.
+
+[If object replacement is selected, Mysterious Creature Dwellings may replace some of the following: Dwarven Treasuries, Mystical Gardens, Crypts]	
+New Creature Banks              	0	3	3	-1	1	1	138	New Creature Banks	New WoG creature banks may replace some other objects on the map.	NEW CREATURE BANKS
+
+Option 138 object replacement by Donald X. Vaccarino (script00)
+
+New WoG creature banks may replace some other objects on the map.
+
+[If object replacement is selected, Transylvania Taverns, Homes of the Bat, Snow-Covered Grottos may replace some of the following: Medusa Stores, Cyclops Stockpiles, Naga Banks, Temples, War Machine Factories, Faerie Rings, Swan Ponds]
+
+[If object replacement is selected, Grottos may replace some of the following: Dwarven Treasuries, Mystical Gardens, Crypts]
+
+[If object replacement is selected, Hunting Lodges may replace some of the following: Imp Caches, Griffin Conservatories, Rally Flags, Marletto Towers]
+
+[If object replacement is selected, Lost Bottles may replace some of the following: Sea Chests]	
+New creature dwellings              	0	3	3	-1	1	1	140	New Creature Dwellings	New WoG creature dwellings may replace some other objects on the map.	NEW CREATURE DWELLINGS
+
+Option 140 object replacement by Donald X. Vaccarino (script00)
+
+New WoG creature dwellings may replace some other objects on the map.
+
+[If object replacement is selected, Arctic Sharpshooter, Lava Sharpshooter, Nightmare, Messenger and Santa Gremlin, Sorceress, and Dracolich dwellings may replace some of the following: Medusa Stores, Cyclops Stockpiles, Naga Banks, Temples, War Machine Factories, Faerie Rings, Swan Ponds]
+
+[If object replacement is selected, Gorynych and Hellsteed dwellings may replace some of the following: Dwarven Treasuries, Mystical Gardens, Crypts]
+
+[If object replacement is selected, War Zealot, Sylvan Centaur and Werewolf dwellings may replace some of the following: Imp Caches, Griffin Conservatories, Rally Flags, Marletto Towers]	
+Palace of Dreams                    	11	3	3	-1	1	1	11	Palace of Dreams	At the Palace of Dreams, all your dreams will come true! Get three artifacts or resources of the same kind and win the JACKPOT!	PALACE OF DREAMS
+
+Option 011 by Timothy Pulver (script11)
+
+At the Palace of Dreams, all your dreams will come true! Get three artifacts or resources of the same kind and win the JACKPOT!
+
+Only 100 gold per game. Play as often as you like each visit.
+
+[If object replacement is selected, Palaces of Dreams may replace some of the following: Dragon Utopias]	
+Potion Fountains                 	17	3	3	-1	1	1	17	Potion Fountains	The enchanted water of three kinds of Magic Fountain provide bonuses when drunk before a combat.	POTION FOUNTAINS
+
+Option 017 by Bruno (script17)
+
+The enchanted water of three kinds of Magic Fountain provide bonuses when drunk before a combat.
+
+Venus's Blessing increases morale and luck.
+
+A Hydromel Potion from the Fountain of Fortune increases attack and defense.
+
+The Berserker Potion from Valhalla's Fountain increases attack and luck but prevents the drinker from casting spells.
+
+Note: potion effects are disabled for network battles.
+
+[If object replacement is selected, Valhalla Fountains may replace some of the following: Level 1 Magic Shrines, Learning Stones, Witch Huts, Windmills]
+
+[If object replacement is selected, Venus's Fountains may replace some of the following: Dwarven Treasuries, Mystical Gardens, Crypts]	
+Power Stones	0	3	3	9	1	1	196	Power Stones	Power Stones give bonuses to Commanders' primary skills. If Commanders are not enabled, Power Stones won't be placed on the map.	POWER STONES
+
+Option 196 object replacement by Timothy Pulver (script00)
+
+Power Stones give bonuses to Commanders' primary skills. Depending on the type of Power Stone, your Commander will gain +2 Attack, +2 Defense, +1 Magic Power, or +1 Speed.
+
+This is a straight bonus to statistics and NOT a primary or secondary Commander skill, so the bonus will not affect your current or future choice of Commander skills.
+
+Warning: If the Enhanced Commanders option is enabled, Power Stones will function differently and may give actual Commander skills instead of the bonuses described above.
+
+Note: If Commanders are NOT enabled, Power Stones won't be placed on the map.
+
+[If object replacement is selected, Power Stones may replace some of the following: Gems, Crystals, Sulfer, Mercury, Spell Scrolls]	
+School of Wizardry                	28	3	3	-1	1	1	28	School of Wizardry	The School of Wizardry sells skills or spells to heroes. Heroes may copy spells from scrolls to their spell book.	SCHOOL OF WIZARDRY
+
+Option 028 By Anders Jonsson (script28)
+
+Sells Spell Power or Knowledge skill points, magic-oriented secondary skills or spells. Heroes may copy spells from scrolls to their spell book.
+
+[If object replacement is selected, Schools of Wizardry may replace some of the following: Imp Caches, Griffin Conservatories, Rally Flags, Marletto Towers]	
+Sphinx                             	0	3	3	-1	1	1	141	Sphinx	Sphinxes may replace some other objects on the map. When visited, the Sphinx will ask a riddle. Answer right to receive a blessing or wrong and receive a curse.	SPHINX
+
+Option 141 object replacement by Donald X. Vaccarino (script00)
+
+When visited, the Sphinx will ask a riddle. Answer correctly and the hero receives a blessing, but answer incorrectly or fail to answer and he or she receives a curse instead.
+
+A hero must be refreshed to visit a Sphinx, and after reaching one may have to wait until the following day before visiting. Talking to the Sphinx is draining and will use up a lot of the hero's movement points for the rest of the day.
+
+Click on the Blessings icon on the hero screen (located to the right of the Hero Specialty and God Bonus icons) to see what blessings and curses a hero currently has and how long they'll last. Receiving the same curse or blessing again will increase its power or duration.
+
+Blessings include resource bonuses, movement bonuses, experience bonuses and spell point bonuses.
+
+Curses include restrictions on visiting certain objects, losing resources, or all monsters encountered being hostile.
+
+[If object replacement is selected, Sphinxes may replace some of the following: Medusa Stores, Cyclops Stockpiles, Naga Banks, Temples, War Machine Factories, Faerie Rings, Swan Ponds]	
+Summoning Stones                  	32	3	3	-1	1	1	32	Summoning Stones	The Summoning Stones let a hero summon a single stack of troops from any of his or her towns once per day.	SUMMONING STONES
+
+Option 032 by Timothy Pulver (script32)
+
+The Summoning Stones let a hero summon a single stack of troops from any of his or her towns once per day.
+
+If the troops haven't been bought yet, they can be purchased for the usual price. If they're in the garrison, they're transported for free.
+
+If a player has more than 11 towns, the additional towns will not be available through the Summoning Stones.
+
+[If object replacement is selected, Summoning Stones may replace some of the following: Schools of War]	
+Commander Sanctuary	76	3	2	0	0	0	76	Commander Sanctuary	The Sanctuary will revive a dead Commander for a small resource donation.	COMMANDER SANCTUARY
+
+Option 076 by Timothy Pulver (script76)
+
+The Sanctuary will revive a dead Commander for a small resource donation.
+
+[If object replacement is selected, Sanctuaries may replace some of the following: Imp Caches, Griffin Conservatories, Rally Flags, Marletto Towers]	
+Commander Witch Huts	66	3	2	1	0	0	66	Commander Witch Huts	Witch Huts will give bonus skills and abilities to Commanders as well as to the Hero.	COMMANDER WITCH HUTS
+
+Option 066 by Donald X. Vaccarino and Hermann the Weird (script66)
+
+Witch Huts will give bonus skills and abilities to Commanders as well as to the Hero.	
+Advanced Witch Huts	64	3	2	-1	0	0	194	Advanced Witch Huts	Advanced Witch Huts let heroes refuse, advance or even remove the skill taught.	ADVANCED WITCH HUTS
+
+Option 194 by Tobyn (script64)
+
+Heroes can refuse the skill offer
+or get it advanced for 3000 gold
+or even forget that skill altogether.	
+Dungeon of the Dragon Master	53	3	2	-1	0	0	53	Dungeon of the Dragonmaster	Enhances all Dragon Utopias on a map	DUNGEON OF THE DRAGONMASTER
+
+Option 053 by Hermann the Weird (script53)
+
+All Dragon Utopias on a map are now guarded by Darkness Dragons. If the "Hero's upgraded level 7 creatures become level 8" map rule is enabled, there will be 8..20, and if not enabled, 3..12.
+
+Rewards for winning are:
+
+* 2 .. 5 Relics
+
+* 3 Minor or Major artifacts
+
+* Choice of 20000 .. 50000 Gold or 10000 .. 25000 Experience	
+Fishing Well                         	7	3	2	-1	1	1	107	Fishing Well	This adds a new function to the Magic Well that allows any hero to go fishing there for treasure.	FISHING WELL
+
+Option 107 by Timothy Pulver (script07)
+
+This adds a new function to the Magic Well that allows any hero to go fishing there for treasure.
+
+Fishing in the well uses up all the hero's remaining movement points for the day.
+
+The fishing hero may snag a handful of gold coins or may reel in a chest filled with valuable resources, an artifact or even a deadly trap.
+
+Some of the other possibilities include monsters emerging and attacking the hero, discovery of a tunnel system leading to another Fishing Well, or merely some junk, like an old boot or a mouldy cheese sandwich.	
+Freelancer's Guild                   	21	3	2	-1	1	1	21	Freelancer's Guild	This adds a new function to the Freelancer's Guild that lets a visiting hero hire a stack of wandering monsters that will slowly hunt down enemy heroes.	FREELANCER'S GUILD
+
+Option 021 by Timothy Pulver (script21)
+
+This adds a new function to the Freelancer's Guild as well as placing several on the map. Guilds will hire out stacks of  freelance monsters (at good rates) that move slowly towards enemy heroes and towns.
+
+As time goes on in the game, the freelance monster stacks available for hire will increase in size.
+
+The cost of hiring a stack is 25% of the normal cost of recruitment.
+
+Stacks won't move until the second turn after they have been hired and are unable to move across water or between levels. If the enemy is on another map level, the stack won't move until the enemy reaches the monster's map level.
+
+If the freelancers are attacked by the hiring hero, they will quickly disperse.
+
+[If object replacement is selected, Freelancer's Guilds may replace some of the following: Dwarven Treasuries, Mystical Gardens, Crypts]	
+Garrisons	42	3	2	-1	0	0	42	Garrisons	This option adds guarded neutral Garrisons to a map. Garrison frequency is chosen during map loading.	GARRISONS
+
+Option 042 by Timothy Pulver (script42)
+
+This option adds guarded neutral Garrisons to a map. Garrison frequency is chosen during map loading. The garrisons are also protected by magic and the defenders will grow slowly in number each week. Troops in the garrisons vary by terrain type and most guards possess a small stash of resources or sometimes even an artifact.
+
+Note: the special garrison additions are disabled for network battles.	
+Obelisk Runes	43	3	2	-1	1	1	43	Obelisk Runes	Enhances Obelisks with a randomly selected adventure spell. It is inscribed in runes upon the Obelisk's surface and may be cast by any visiting hero for free.	OBELISK RUNES
+
+Option 043 by Timothy Pulver (script43)
+
+This option enhances Obelisks with a randomly selected adventure spell. It is inscribed in runes upon the Obelisk's surface and may be cast by any visiting hero for free.
+
+Adventure Spells that are banned will not be found on Obelisks.	
+Tavern Card Game                      	13	3	2	-1	1	1	13	Tavern Card Game	Enhances the adventure map Tavern with a card game that lets the hero win gold if he or she gets lucky.	TAVERN CARD GAME
+
+Option 013 by Timothy Pulver (script13)
+
+Enhances the adventure map Tavern with a card game that lets the hero win gold if he or she gets lucky.
+
+In each game there will be from 2-5 players. You can choose a low or high stake which will determine the amount of gold you can win or lose.
+
+A hero's luck increases the odds of winning but if he or she gets too lucky or wins too many games there are consequences.
+
+Winning the grand prize also gives the hero a magical pendant.
+
+[If object replacement is selected, Taverns may replace some of the following: Medusa Stores, Cyclops Stockpiles, Naga Banks, Temples, War Machine Factories, Faerie Rings, Swan Ponds]	
+New Treasure Chest                    	29	3	0	-1	1	1	29	New Treasure Chest	This new type of treasure chest will replace some regular treasure chests on the map.	NEW TREASURE CHEST
+
+Option 029 by Donald X. Vaccarino (script29)
+
+This new type of treasure chest will replace some regular treasure chests on the map.
+
+It may contain two artifacts, a choice of resources or a primary skill point, or it could even be the option of upgrading some of your troops.
+
+Note: trapped chest poison effects are disabled for network battles.
+[If object replacement is selected, New Treasure Chests may replace some of the following: standard Treasure Chests]	
+Treasure Chest 2                      	31	3	0	-1	1	1	31	New Treasure Chest 2	This new type of treasure chest will replace some regular treasure chests on the map.	NEW TREASURE CHEST 2
+
+Option 031 by Timothy Pulver (script31)
+
+This new type of treasure chest will replace some regular treasure chests on the map.
+
+It may contain gold and the choice of a spell scroll or mana, or a choice between two comprehensive tomes of knowledge, or it could even be a deed to an unowned mine.
+
+[If object replacement is selected, New Treasure Chest 2s may replace some of the following: standard Treasure Chests]	
+New Artifacts                       	0	3	0	-1	1	1	143	New Artifacts	New WoG Artifacts may replace some regular artifacts on the map.	NEW ARTIFACTS
+
+Option 143 object replacement by Donald X. Vaccarino and Timothy Pulver (script00)
+
+New WoG Artifacts may replace some regular artifacts on the adventure map.
+
+The new WoG artifacts are: Magic Wand, Gold Tower Arrow, Monster's Power, 10 Commander artifacts, Crimson Shield of Retaliation, Dragonheart, Gate Key, Barbarian Lord's Axe of Ferocity, and the Warlord's Banner.
+
+Note 1: Commander artifacts will only be placed if the Commanders option and/or Enhanced Commander Artifacts option is also enabled.
+
+Note 2: Warlord's Banners will only be placed if Stack Experience is also enabled. In addition to replacing some map artifact, Banners will sometimes be added to the treasure of creature banks.
+
+Note 3: The Barbarian Lord's Axe of Ferocity is a new combination artifact and may only replace other combination artifacts, however it may also be assembled from its parts like any other combo.
+
+Note 4: Quest Hut artifacts and artifacts with customized text or guards will not be replaced.	
+Artifact Boost                     	2	3	0	-1	1	1	102	Artifact Boost	Many of the weaker artifacts in the game are enhanced with extra abilities.	ARTIFACT BOOST
+
+Option 102 by Donald X. Vaccarino (script02)
+
+Caution: If you also enable Enhanced Artifacts, some artifacts will gain two bonuses and may become too powerful.
+
+Many weaker artifacts in the game are enhanced:
+
+- Birds of Perception give 6 Royal Griffins per week.
+- Pendants of Life gives 24 Sprites per week.
+- Pendants of Death gives 12 Zombies per week.
+- The Targ of the Rampaging Ogre provokes a fight with 30 Ogres at the start of each week.
+- Dead Men's Boots duplicate themselves each week.
+- Pendants of Total Recall give 1000 experience per week.
+- Emblems of Cognizance give 15 gold per troop each week.
+- The Stoic Watchman reveals a large area around the hero at the start of each week.
+- Pendants of Second Sight upgrade lowly shooters.
+- Pendants of Holiness give a random holy spell each week.
+- Boots of Polarity may be traded for a 1-time movement bonus.
+- Garnitures of Interference may be traded for a magic skill.
+- Pendants of Dispassion give +1 knowledge per week.
+- Pendants of Free Will upgrade golems and peasants.
+- Diplomat's Rings may be traded to double the number of first level troops in a hero's army (max. 100-1000, depending on player difficulty).
+- The Surcoat of Counterpoise doubles the effects of these artifacts, where applicable.
+- Orbs of Vulnerability give 1 Archmage plus an additional one per level of Wisdom each week.
+- Spheres of Permanence give 1 Mighty Gorgon plus another per 10 Defense each week.
+- The Statesman's Medal may be traded at a town for up to three buildings.
+- Orbs of Inhibition may be traded to modify a creature's abilities.
+
+All new artifact abilities function for the AI (if worn) but the AI won't agree to trades.	
+Hourglass of Asmodeus              	6	3	0	-1	0	0	106	Hourglass of Asmodeus	Enhances the Hourglass of the Evil Hour, giving it the ability to summon Asmodeus to fight for your hero in combat.	HOURGLASS OF ASMODEUS
+
+Option 106 by Timothy Pulver (script06)
+
+Enhances the Hourglass of the Evil Hour, giving it the ability to summon Asmodeus to fight for your hero in combat (with the hero's troops).
+
+A hero can only summon Asmodeus if he or she is the attacker.
+
+After combat, Asmodeus claims a part of the hero's soul (1 Power) before leaving. If the hero can't pay, he takes the Hourglass instead.
+
+If Asmodeus loses, the hero will lose all troops but will not abandon your cause.
+
+Asmodeus is 13th level and possesses some good skills and powerful magic spells.
+
+Note: this artifact script is disabled for network battles.	
+Spell Book                          	27	3	0	-1	0	0	27	Spell Book	Spell Books found on the adventure map contain several spells of different levels.	SPELL BOOK
+
+Option 027 by Anders Jonsson (script27)
+
+Spell Books found on the adventure map contain several spells of different levels.
+
+[If object replacement is selected, Spell Books may replace some of the following: Spell Scrolls]	
+Cards of Prophecy                    	34	3	0	-1	1	1	34	Cards of Prophecy	Activates random battle effects for Cards of Prophecy.	CARDS OF PROPHECY
+
+Option 034 by Qurqirish Dragon (script34)
+
+Whenever a hero enters battle with the Cards of Prophecy equipped, a random effect upon the hero's primary stats occurs, in addition to the normal luck bonus.
+
+Note: this artifact script is disabled for network battles.	
+Living Scrolls                      	33	3	0	-1	1	1	33	Living Scrolls	Enhances many of the combat Spell Scrolls, giving them a chance each round of combat (after the first) of casting the spell themselves.	LIVING SCROLLS
+
+Option 033 by Timothy Pulver (script33)
+
+Enhances many of the combat Spell Scrolls, giving them a chance each round of combat (after the first) of casting their spell themselves.
+
+The chance of a Living Scroll casting its spell is 20% times the number of Living Scrolls equipped. Only one Living Scroll will cast its spell each round.
+
+The following spells are not available as Living Scrolls: adventure spells, Animate Dead, Clone, Death Ripple, Destroy Undead, Dispel, Resurrection, Sacrifice, Summon Elemental spells.
+
+Note 1: Living Scrolls may ignore certain types of special magic resistance such as most spell immunities gained through stack experience.
+Note 2: Living Scrolls are only active in battles against neutral creatures.	
+Enhanced Artifacts	71	3	0	-1	0	0	71	Enhanced Artifacts	Enhances many artifacts with additional abilities.	ENHANCED ARTIFACTS
+
+Option 071 by Arstahd (script71)
+
+Caution: If you also enable Artifact Boost, some artifacts will gain two bonuses and may become too powerful.
+
+Any spells cast are Basic level. Some artifacts are reclassed.
+
+Pendant Of Life gives living troops HP based on level {Major}
+Pendant Of Death gives undead +5 Att/Def +1 Spd {Major}
+Pendant Of Total Recall casts mass Precision   {Minor}
+Pendant Of Second Sight casts mass Air Shield   {Minor}
+Pendant Of Holiness casts mass Bless   {Major}
+Pendant Of Dispassion casts mass Bloodlust   {Minor}
+Pendant Of Free Will casts mass Stoneskin   {Minor}
+Orb Of Vulnerability casts mass Disease
+Orb Of the Firmament casts mass Prot. from Air
+Orb Of Silt casts mass Prot. from Earth
+Orb Of Tempestuous Fire casts mass Prot. from Fire
+Orb Of Driving Rain casts mass Prot. from Water
+Collar of Conjuring increases spell damage by 5%  
+Ring of Conjuring increases spell damage by 10% 
+Cape of Conjuring increases spell damage by 15% 
+Ring of the Magi increases spell damage by 20% (total of 50%)
+Sphere Of Permanence adds 10 HP to hero's non-living troops
+Dead Man's Boots upgrade Skeletons
+Vampire's Cowl upgrades Vampires
+Amulet of the Undertaker upgrades Walking Dead
+Centaur's Axe upgrades Centaurs
+Shield of the Dwarven Lords upgrades Dwarves
+Breastplate of Petrified Wood upgrades Dendroid Guards
+Helm of the Alabaster Unicorn upgrades Unicorns
+New combination artifact (above 4 artifacts)
+Garb of the Forest Lord: gives creatures every week
+Statesman's Medal reduces aggression by 1  {Treasure}
+Ring of the Diplomat reduces aggression by 1  {Treasure}
+Ambassador's Sash reduces aggression by 1  {Treasure}
+New combination artifact (above 3 artifacts)
+The Vestments of Authority: aggression is reduced by 1
+Ring of Life   {Treasure}
+Vial of Lifeblood   {Treasure}
+
+Note: scripted combat artifacts disabled for network battles.	
+Enhanced Commander Artifacts	71	3	0	-1	0	0	219	Enhanced Commander Artifacts	Commander artifacts can be worn by heroes granting two random abilities.	ENHANCED COMMANDER ARTIFACTS
+
+Option 219 by Arstahd (script71)
+
+Commander artifacts can be worn by heroes granting two random abilities (as well as functioning normally).
+
++1 to +5 Primary Stat bonus
+ (1, 2, or all 4 stats depending on artifact type).
+
+Add one rank to a random secondary skill
+ (if this puts you at expert, the bonus is permanent).	
+Ban spells from Mage Guilds & Pyramids	25	5	0	-1	1	1	146	Ban spells from Mage Guilds and Pyramids	The spells selected will never appear in Mage Guilds or Pyramids.	BAN SPELLS FROM MAGE GUILDS
+
+Option 146 by Timothy Pulver (script25)
+
+The spells selected will never appear in Mage Guilds or Pyramids.	
+Ban spells from Spell Shrines   	25	5	0	-1	1	1	147	Ban spells from Spell Shrines	The spells selected will never appear in Spell Shrines.	BAN SPELLS FROM SPELL SHRINES
+
+Option 147 by Timothy Pulver (script25)
+
+The spells selected will  never appear in Spell Shrines.	
+Ban spells from Scholars        	25	5	0	-1	1	1	148	Ban spells from Scholars	The spells selected will never be taught by Scholars.	BAN SPELLS FROM SCHOLARS
+
+Option 148 by Timothy Pulver (script25)
+
+The spells selected will never be taught by Scholars.	
+Ban spells from Scrolls and Pandora's Boxes	25	5	0	-1	1	1	150	Ban spells from Scrolls and Pandora's Boxes	The spells selected will never appear on Spell Scrolls or in Pandora's Boxes.	BAN SPELLS FROM SCROLLS AND PANDORA'S BOXES
+
+Option 150 by Timothy Pulver (script25)
+
+The spells selected will never appear on Spell Scrolls or in Pandora's Boxes.	
+Ban spells from Hero's starting spells	25	5	0	-1	1	1	151	Ban spells from Hero's starting spells	The spells selected will never appear as a hero's starting spell.	BAN SPELLS FROM HERO'S STARTING SPELLS
+
+Option 151 by Timothy Pulver (script25)
+
+The spells selected will never appear as a hero's starting spell.	
+Ban Summon Boat                 	25	5	0	-1	0	0	152	Ban Summon Boat	Ban Summon Boat.	BAN SUMMON BOAT
+
+Option 152 by Timothy Pulver (script25)
+
+Ban the Summon Boat spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban Scuttle Boat                     	25	5	0	-1	0	0	221	Ban Scuttle Boat	Ban Scuttle Boat.	BAN SCUTTLE BOAT
+
+Option 221 by Timothy Pulver (script25)
+
+Ban the Scuttle Boat spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban Water Walk                  	25	5	0	-1	0	0	153	Ban Water Walk	Ban Water Walk.	BAN WATER WALK
+
+Option 153 by Timothy Pulver (script25)
+
+Ban the Water Walk spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban Town Portal                  	25	5	0	-1	0	0	154	Ban Town Portal	Ban Town Portal.	BAN TOWN PORTAL
+
+Option 154 by Timothy Pulver (script25)
+
+Ban the Town Portal spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban Dimension Door                   	25	5	0	-1	0	0	155	Ban Dimension Door	Ban Dimension Door.	BAN DIMENSION DOOR
+
+Option 155 by Timothy Pulver (script25)
+
+Ban the Dimension Door spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban Fly                         	25	5	0	-1	0	0	156	Ban Fly	Ban Fly.	BAN FLY
+
+Option 156 by Timothy Pulver (script25)
+
+Ban the Fly spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban Visions                    	25	5	0	-1	0	0	222	Ban Visions	Ban Visions.	BAN VISIONS
+
+Option 222 by Timothy Pulver (script25)
+
+Ban the Visions spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban Armageddon                        	25	5	0	-1	0	0	223	Ban Armageddon	Ban Armageddon.	BAN ARMAGEDDON
+
+Option 223 by Timothy Pulver (script25)
+
+Ban the Armageddon spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban View Air      	25	5	0	-1	0	0	246	Ban View Air	Ban View Air.	BAN VIEW AIR
+
+Option 246 by Timothy Pulver (script25)
+
+Ban the View Air spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban View Earth	25	5	0	-1	0	0	247	Ban View Earth	Ban View Earth.	BAN VIEW EARTH
+
+Option 247 by Timothy Pulver (script25)
+
+Ban the View Earth spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban Animate Dead	25	5	0	-1	0	0	271	Ban Animate Dead	Ban Animate Dead.	BAN ANIMATE DEAD
+
+Option 271 by Timothy Pulver (script25)
+
+Ban the Animate Dead spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban Resurrection	25	5	0	-1	0	0	272	Ban Resurrection	Ban Resurrection.	BAN RESURRECTION
+
+Option 272 by Timothy Pulver (script25)
+
+Ban the Resurrection spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban Disguise	25	5	0	-1	0	0	651	Ban Disguise	Ban Disguise.	BAN DISGUISE
+
+Option 651 by Timothy Pulver (script25)
+
+Ban the Disguise spell from appearing in the game, based on the Spell Banning options selected above.	
+Ban Magic Wands	25	5	1	-1	0	0	176	Magic Wand	Ban Magic Wands from appearing in the game.	MAGIC WAND
+
+Option 176 banning by Timothy Pulver (script25)
+
+Ban Magic Wands from appearing in the game unless placed there intentionally by the map maker.
+
+When equipped, the Magic Wand randomly transforms other equipped artifacts each day. The type of artifacts changed will depend on which miscellaneous slot the Magic Wand is equipped to.	
+Ban Gold Tower Arrow	25	5	1	-1	0	0	226	Gold Tower Arrow	Ban Gold Tower Arrows from appearing in the game.	GOLD TOWER ARROW
+
+Option 226 banning by Timothy Pulver (script25)
+
+Ban Gold Tower Arrows from appearing in the game unless placed there intentionally by the map maker.
+
+The Gold Tower Arrow protects a hero attacking a town from the arrow towers. If a defending hero has this artifact, the towers get additional shots.	
+Ban Monster's Power	25	5	1	-1	0	0	227	Monster's Power	Ban Monster's Powers from appearing in the game.	MONSTER'S POWER
+
+Option 227 banning by Timothy Pulver (script25)
+
+Ban Monster's Powers from appearing in the game unless placed there intentionally by the map maker.
+
+Casts Prayer on all monsters of one kind. Every week, a new random monster is selected from the hero’s army and Prayer will be cast on ALL monsters of this type that every hero has during that week.	
+Ban Slava's Ring of Power	25	5	1	-1	0	0	177	Slava's Ring of Power	Ban Slava's Rings of Power from appearing in the game.	SLAVA'S RING OF POWER
+
+Option 177 banning by Timothy Pulver (script25)
+
+Ban Slava's Rings of Power from appearing in the game unless placed there intentionally by the map maker.
+
+Given to a Commander, this artifact gives all six basic skills at Advanced level.	
+Ban Commander Artifacts	25	5	3	-1	0	0	238	Ban Commander Artifacts	Bans all ten Commander artifacts from appearing in the game.	COMMANDER ARTIFACTS
+
+Option 238 banning by Timothy Pulver (script25)
+
+Bans all ten Commander artifacts from appearing in the game unless placed there intentionally by the map maker.
+
+Commander artifacts given Commanders various bonuses in combat. Many of the bonuses are incremental and will increase after winning a certain number of combats.	
+Ban Warlord's Banner	25	5	3	-1	0	0	234	Warlord's Banner	Ban Warlord's Banners from appearing in the game.	WARLORD'S BANNER
+
+Option 234 banning by Timothy Pulver (script25)
+
+Ban Warlord's Banners from appearing in the game unless placed there intentionally by the map maker.
+
+Warlord's Banners give combat bonuses to a specific monster stack if the stack experience option is enabled.
+
+Note: The Map Rule for placing Warlord's Banners in front of Towns is unaffected by this banning option, allowing players to use that rule while still banning Warlord's Banners from appearing elsewhere in the game. To ensure that no Banners appear at all, enable this option, disable the Banner Map Rule and do not use the "Select two random Map Rules" option.	
+Ban Crimson Shield of Retribution	25	5	3	-1	0	0	236	Crimson Shield of Retribution	Ban Crimson Shields of Retribution from appearing in the game.	CRIMSON SHIELD OF RETRIBUTION
+
+Option 236 banning by Timothy Pulver (script25)
+
+Ban Crimson Shields of Retribution from appearing in the game unless placed there intentionally by the map maker.
+
+This shield add +2 to Defense and lets a hero's troops retaliate against creatures that cannot normally be retaliated against.	
+Ban Dragonheart	25	5	3	-1	0	0	241	Dragonheart	Ban Dragonhearts from appearing in the game.	DRAGONHEART
+
+Option 241 banning by Timothy Pulver (script25)
+
+Ban Dragonhearts from appearing in the game unless placed there intentionally by the map maker.
+
+This relic summons dragons to fight for a hero in combat.	
+Ban Gate Key	25	5	3	-1	0	0	243	Gate Key	Ban Gate Keys from appearing in the game.	GATE KEY
+
+Option 243 banning by Timothy Pulver (script25)
+
+Ban Gate Keys from appearing in the game unless placed there intentionally by the map maker.
+
+The Gate Key lets a hero lock an owned town for five days.	
+Ban Barbarian Lord's Axe Ferocity	25	5	3	-1	0	0	237	Barbarian Lord's Axe of Ferocity	Ban Barbarian Lord's Axes of Ferocity from appearing in the game.	BARBARIAN LORD'S AXE OF FEROCITY
+
+Option 237 banning by Timothy Pulver (script25)
+
+Ban Barbarian Lord's Axes of Ferocity from appearing in the game unless placed there intentionally by the map maker.
+
+This combination artifact consists of the Ogre's Club of Havoc, Targ of the Rampaging Ogre, Tunic of the Cyclops King, and Crown of the Supreme Magi. In addition to the regular bonuses, it grants an additional strike each round to all non-shooting creatures in a hero's army.
+
+Note: even if making a melee attack, shooting creatures won't receive this bonus.	
+Ban Boots of Levitation           	25	5	2	-1	0	0	157	Boots of Levitation	Ban Boots of Levitation from appearing in the game.	BAN BOOTS OF LEVITATION
+
+Option 157 by Timothy Pulver (script25)
+
+Ban Boots of Levitation from appearing in the game unless placed there intentionally by the map maker.	
+Ban Angel Wings                 	25	5	2	-1	0	0	158	Angel Wings	Ban Angel Wings from appearing in the game.	BAN ANGEL WINGS
+
+Option 158 by Timothy Pulver (script25)
+
+Ban Angel Wings from appearing in the game unless placed there intentionally by the map maker.	
+Ban Tome of Air Magic           	25	5	2	-1	0	0	159	Tome of Air Magic	Ban Tomes of Air Magic from appearing in the game.	BAN TOME OF AIR MAGIC
+
+Option 159 by Timothy Pulver (script25)
+
+Ban Tomes of Air Magic from appearing in the game unless placed there intentionally by the map maker.	
+Ban Tome of Earth Magic         	25	5	2	-1	0	0	160	Tome of Earth Magic	Ban Tomes of Earth Magic from appearing in the game.	BAN TOME OF EARTH MAGIC
+
+Option 160 by Timothy Pulver (script25)
+
+Ban Tomes of Earth Magic from appearing in the game unless placed there intentionally by the map maker.	
+Ban Tome of Fire Magic          	25	5	2	-1	0	0	161	Tome of Fire Magic	Ban Tomes of Fire Magic from appearing in the game.	BAN TOME OF FIRE MAGIC
+
+Option 161 by Timothy Pulver (script25)
+
+Ban Tomes of Fire Magic from appearing in the game unless placed there intentionally by the map maker.	
+Ban Tome of Water Magic         	25	5	2	-1	0	0	162	Tome of Water Magic	Ban Tomes of Water Magic from appearing in the game.	BAN TOME OF WATER MAGIC
+
+Option 162 by Timothy Pulver (script25)
+
+Ban Tomes of Water Magic from appearing in the game unless placed there intentionally by the map maker.	
+Ban Spellbinder's Hat           	25	5	2	-1	0	0	163	Spellbinder's Hat	Ban Spellbinder's Hats from appearing in the game.	BAN SPELLBINDER'S HAT
+
+Option 163 by Timothy Pulver (script25)
+
+Ban Spellbinder's Hats from appearing in the game unless placed there intentionally by the map maker.	
+Ban Sea Captain's Hat              	25	5	2	-1	0	0	164	Sea Captain's Hat	Ban Sea Captain's Hats from appearing in the game.	BAN SEA CAPTAIN'S HAT
+
+Option 164 by Timothy Pulver (script25)
+
+Ban Sea Captain's Hats from appearing in the game unless placed there intentionally by the map maker.	
+Ban Recanter's Cloak            	25	5	2	-1	0	0	166	Recanter's Cloak	Ban Recanter's Cloaks from appearing in the game.	BAN RECANTER'S CLOAK
+
+Option 166 by Timothy Pulver (script25)
+
+Ban Recanter's Cloaks from appearing in the game unless placed there intentionally by the map maker.	
+Ban Orb of Inhibition           	25	5	2	-1	0	0	167	Orb of Inhibition	Ban Orbs of Inhibition from appearing in the game.	BAN ORB OF INHIBITION
+
+Option 167 by Timothy Pulver (script25)
+
+Ban Orbs of Inhibition from appearing in the game unless placed there intentionally by the map maker.	
+Ban Orb of Vulnerability        	25	5	2	-1	0	0	168	Orb of Vulnerability	Ban Orbs of Vulnerability from appearing in the game.	BAN ORB OF VULNERABILITY
+
+Option 168 by Timothy Pulver (script25)
+
+Ban Orbs of Vulnerability from appearing in the game unless placed there intentionally by the map maker.	
+Ban Shackles of War	25	5	2	-1	0	0	175	Shackles of War	Ban Shackles of War from appearing in the game.	SHACKLES OF WAR
+
+Option 175 by Timothy Pulver (script25)
+
+Ban Shackles of War from appearing in the game unless placed there intentionally by the map maker.	
+Ban Necklace of Ocean Guidance	25	5	2	-1	0	0	652	Necklace of Ocean Guidance	Ban Necklace of Ocean Guidance from appearing in the game.	BAN NECKLACE OF OCEAN GUIDANCE
+
+Option 652 by Timothy Pulver (script25)
+
+Ban Necklace of Ocean Guidance from appearing in the game unless placed there intentionally by the map maker.	
+Ban Badge of Courage	25	5	2	-1	0	0	653	Badge of Courage 	Ban Badge of Courage from appearing in the game.	BAN BADGE OF COURAGE
+
+Option 653 by Timothy Pulver (script25)
+
+Ban Badge of Courage from appearing in the game unless placed there intentionally by the map maker.	
+Ban Cloak of the Undead King	25	5	2	-1	0	0	654	Cloak of the Undead King	Prevent Cloak of the Undead King being assembled in the game.	DISABLE CLOAK OF THE UNDEAD KING ASSEMBLY
+
+Option 654 by Timothy Pulver (script25)
+
+Enabling this option prevents the Cloak of the Undead King from being assembled in the game.  The parts that make up the cloak may still appear on maps but they can't be assembled into the Cloak of the Undead King.	
+Disable Combo Assembly	25	5	2	-1	0	0	178	Disable Combination Artifact Assembly	Prevent Combination Artifacts being assembled in the game.	DISABLE COMBO ARTIFACT ASSEMBLY
+
+Option 178 by Timothy Pulver (script25)
+
+Enabling this option stops Combination Artifacts from being assembled in the game.  The parts that make up a Combination Artifact may still appear on maps but they can't be assembled into a Combo.	
+											

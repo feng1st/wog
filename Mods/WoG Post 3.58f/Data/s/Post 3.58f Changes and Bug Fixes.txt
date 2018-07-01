@@ -1,10 +1,3 @@
-# In The Wake Of Gods Post 3.58f Changes and Bug Fixes (Era mods)
-
-GitHub: <https://github.com/feng1st/wog>
-
-## WoG Post 3.58f
-
-```
 Post 3.58f Changes and Bug Fixes  November 22, 2006
 
 script00.erm (WoGify)
@@ -328,4 +321,3 @@ Note: the "WoG Cheat Menu" is primarily for Mapmakers and testers -- see "Mapmak
  - Fixed a bug with building all town dwellings -- if it wasn't a Rampart or Inferno it crashed the game.
  - Fixed a picture display error for variable dump.
 
-```
