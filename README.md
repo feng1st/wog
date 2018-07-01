@@ -2,6 +2,42 @@
 
 GitHub: <https://github.com/feng1st/wog>
 
+## WoG Post 3.58f Cheats
+
+```
+This mod adds some cheat options to Post 3.58f.
+
+Cheat options (can be turned on/off in Cheats.ini):
+
+cheat: keep war machine level
+cheat: war machine daily upgrade limit
+cheat: henchman max rank
+cheat: keep henchman experience
+cheat: henchman gains random extra experience
+cheat: fast learning from hermit
+cheat: real random 9th/10th skill
+```
+
+## WoG Post 3.58f Bug Fixes
+
+```
+This mod fixes some bugs from Post 3.58f.
+
+Changes in WoG Post 3.58f scripts:
+
+fix: witch hut gives invalid skill
+fix: first aid tent is missing
+fix: first aid tent resurrects dead stack
+fix: first aid tent kills henchman
+fix: restarting game do not reset henchman experience
+fix: adventure cave adds speed to war machines
+fix: 9th/10th skill includes necromancy
+
+Misc changes:
+
+More user friendly check box and radio box.
+```
+
 ## WoG Post 3.58f
 
 ```
